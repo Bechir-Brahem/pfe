@@ -16,12 +16,18 @@
 \usepackage{fancyhdr} % en-tete et pieds de page
 \usepackage{eucal}
 \usepackage[dvipsnames]{xcolor}
-\usepackage[numbers,sort&compress]{natbib}
+% \usepackage[numbers,sort&compress]{natbib}
 \usepackage{hypernat}
 \usepackage{ifpdf}
 \usepackage{ifthen}
 \RequirePackage{calc}
 \RequirePackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{minitoc}
+\usepackage[
+backend=biber,
+style=alphabetic,
+]{biblatex}
 
 %Red�finition de l'environnement \part
 \def\@part[#1]#2{
@@ -69,7 +75,6 @@
                  bookmarksnumbered = true,
                  breaklinks = true,
                  linktocpage,
-                 pagebackref = true, % pour effacer les rappels de pages dans la biblio (utile dans la version papier).  
                  colorlinks = true,
                  linkcolor = blue,
                  urlcolor  = blue,
@@ -263,8 +268,7 @@
 
 \newcommand{\DATE}{}
 
-\usepackage[utf8]{inputenc}
-\usepackage{minitoc}
+
 
 \newcommand{\JURY}{
 \textbf{\large{\textbf{JURY}}}\\[\baselineskip]
