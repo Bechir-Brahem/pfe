@@ -15,7 +15,7 @@
 \usepackage{graphics}
 \usepackage{fancyhdr} % en-tete et pieds de page
 \usepackage{eucal}
-\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usepackage[numbers,sort&compress]{natbib}
 \usepackage{hypernat}
 \usepackage{ifpdf}

@@ -1,5 +1,9 @@
 \documentclass[oneside,12pt]{Classes/aesm_edspia}
 
+\usepackage[
+backend=biber,
+style=alphabetic,
+]{biblatex}
 \usepackage{minitoc}
 
 \usepackage{amsmath}
@@ -24,6 +28,7 @@
 \usepackage[leftcaption]{sidecap}
 \usepackage[labelsep=endash, textfont={footnotesize, singlespacing}, margin=10pt, format=plain, labelfont=bf]{caption}
 \usepackage[Conny]{Classes/fncychap} %en tete chapitrage
+\addbibresource{references.bib}
 \newcommand{\ie}{c.-\`a-d.~}
 \hbadness=10000% pb d'overfull box réglé
 \hfuzz=50pt
@@ -90,18 +95,18 @@
 
 % Pour remplir la page de garde
 
-\TitreProjet{Your project's title}
+\TitreProjet{A flexible data analysis library for hybrid pixel detectors}
 
-\AuteurA{Flen} {FOULENI} 
+\AuteurA{Bechir} {Braham} 
 %\AuteurB{Flen2} {FOULENI}
 %\AuteurC{Flen3} {FOULENI} 
 %\AuteurD{Flen4} {FOULENI}
 
-\Encadrant{M.}{Flen}{FOULENI}
-\EncadrantS{Ms.} {Flena} {FALTEN}
+\Encadrant{Dr.}{Ghada}{Guesmi}
+\EncadrantS{Dr.} {Erik} {Froejdh}
 
 \Filiere{Software Engineering}
-\datesout{--/--/20XX}
+\datesout{30/09/2024}
 
 
 
@@ -110,7 +115,7 @@
 
 
 
-\AnneeUniv{20XX/20YY}
+\AnneeUniv{2023/2024}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makethese %% crée la couverture.
@@ -189,7 +194,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\fancyhead[R]{Résumés}
 
-\include{Resumes/resumeF}
+% \include{Resumes/resumeF}
 
 \include{Resumes/resumeA}
 
@@ -223,15 +228,14 @@
 \renewcommand{\footrulewidth}{0pt}
 \include{Conclusion/conclusion}
 
-\bibliographystyle{Biblio/unsrt_modif} 
 \singlespacing
-\renewcommand{\bibname}{References}
-
-\bibliography{Biblio/aesm_edspia}
+% \renewcommand{\bibname}{References}
+\printbibliography
 
 \onehalfspacing
 
 \appendix
 \include{Annexe1/annexe1}
+
 
 \end{document}
