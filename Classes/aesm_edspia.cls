@@ -28,6 +28,7 @@
 backend=biber,
 style=alphabetic,
 ]{biblatex}
+\addbibresource{references.bib}
 
 %Red�finition de l'environnement \part
 \def\@part[#1]#2{

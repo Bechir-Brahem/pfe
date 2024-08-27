@@ -1,19 +1,139 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{SFAXI2015}
-{\sc Lilia Sfaxi and Souheib Yousfi}.
-\newblock {\em Pour bien écrire un rapport}.
-\newblock Département Math-info  (2015).
 
-\bibitem{Latex}
-{\sc Mr. Latex}.
-\newblock {Débuter avec Latex}.
-\newblock \url{www.latex.com},  (2008).
-\newblock [En ligne; consulté le 19-Juillet-2008].
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{dirac}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59342ede3a101402b34939644b51ad06}{%
+           family={Dirac},
+           familyi={D\bibinitperiod},
+           given={Paul\bibnamedelimb Adrien\bibnamedelima Maurice},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{59342ede3a101402b34939644b51ad06}
+      \strng{fullhash}{59342ede3a101402b34939644b51ad06}
+      \strng{bibnamehash}{59342ede3a101402b34939644b51ad06}
+      \strng{authorbibnamehash}{59342ede3a101402b34939644b51ad06}
+      \strng{authornamehash}{59342ede3a101402b34939644b51ad06}
+      \strng{authorfullhash}{59342ede3a101402b34939644b51ad06}
+      \field{labelalpha}{Dir81}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780198520115}
+      \field{series}{International series of monographs on physics}
+      \field{title}{The Principles of Quantum Mechanics}
+      \field{year}{1981}
+      \keyw{physics}
+    \endentry
+    \entry{ctan}{article}{}
+      \name{author}{1}{}{%
+        {{hash=49707904379b764cce43a4c7f47139f8}{%
+           family={Greenwade},
+           familyi={G\bibinitperiod},
+           given={George\bibnamedelima D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{49707904379b764cce43a4c7f47139f8}
+      \strng{fullhash}{49707904379b764cce43a4c7f47139f8}
+      \strng{bibnamehash}{49707904379b764cce43a4c7f47139f8}
+      \strng{authorbibnamehash}{49707904379b764cce43a4c7f47139f8}
+      \strng{authornamehash}{49707904379b764cce43a4c7f47139f8}
+      \strng{authorfullhash}{49707904379b764cce43a4c7f47139f8}
+      \field{labelalpha}{Gre93}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TUGBoat}
+      \field{number}{3}
+      \field{title}{The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN})}
+      \field{volume}{14}
+      \field{year}{1993}
+      \field{pages}{342\bibrangedash 351}
+      \range{pages}{10}
+      \keyw{latex}
+    \endentry
+    \entry{knuthwebsite}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1dd533466eb3313074d496394d319407}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1dd533466eb3313074d496394d319407}
+      \strng{fullhash}{1dd533466eb3313074d496394d319407}
+      \strng{bibnamehash}{1dd533466eb3313074d496394d319407}
+      \strng{authorbibnamehash}{1dd533466eb3313074d496394d319407}
+      \strng{authornamehash}{1dd533466eb3313074d496394d319407}
+      \strng{authorfullhash}{1dd533466eb3313074d496394d319407}
+      \field{extraname}{1}
+      \field{labelalpha}{Knu}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Knuth: Computers and Typesetting}
+      \verb{urlraw}
+      \verb http://www-cs-faculty.stanford.edu/~uno/abcde.html
+      \endverb
+      \verb{url}
+      \verb http://www-cs-faculty.stanford.edu/~uno/abcde.html
+      \endverb
+      \keyw{latex,knuth}
+    \endentry
+    \entry{knuth-acp}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{fullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{bibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorbibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authornamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorfullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \field{extraname}{2}
+      \field{labelalpha}{Knu68}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Seven volumes planned}
+      \field{series}{Four volumes}
+      \field{title}{The Art of Computer Programming}
+      \field{year}{1968}
+      \keyw{knuth,programming}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem{YOUSFI2015}
-{\sc Souheib Yousfi and Lilia Sfaxi}.
-\newblock {\em Rapport Latex}.
-\newblock Département Math-info  (2015).
-
-\end{thebibliography}
