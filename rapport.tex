@@ -24,6 +24,7 @@
 \usepackage[leftcaption]{sidecap}
 \usepackage[labelsep=endash, textfont={footnotesize, singlespacing}, margin=10pt, format=plain, labelfont=bf]{caption}
 \usepackage[Conny]{Classes/fncychap} %en tete chapitrage
+\usepackage{minitoc}
 \newcommand{\ie}{c.-\`a-d.~}
 \hbadness=10000% pb d'overfull box réglé
 \hfuzz=50pt
@@ -144,6 +145,11 @@
 \renewcommand{\contentsname}%
     {Table of Contents}%
 
+%%%%minitoc
+\dominitoc % génère la minitoc
+\nomtcrule % supprime les lignes horizontales de la minitoc
+\renewcommand{\mtctitle}{Summary} % Modifie le titre de la minitoc
+
 %%%%
 \tableofcontents
 
@@ -163,7 +169,7 @@
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\listfigurename{List of Figures}
 
-\listoffigures
+\listoffigures \mtcaddchapter 
 
 \fancyhead[R]{List of Figures}
 \newpage
@@ -177,7 +183,7 @@
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\listtablename{List of Tables}
 
-\listoftables
+\listoftables  \mtcaddchapter 
 
 \fancyhead[R]{List of Tables}
 
