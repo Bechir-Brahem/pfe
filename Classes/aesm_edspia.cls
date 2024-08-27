@@ -23,7 +23,6 @@
 \RequirePackage{calc}
 \RequirePackage{float}
 \usepackage[utf8]{inputenc}
-\usepackage{minitoc}
 \usepackage[
 backend=biber,
 style=alphabetic,

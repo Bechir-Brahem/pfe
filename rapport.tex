@@ -144,11 +144,6 @@
 \renewcommand{\contentsname}%
     {Table of Contents}%
 
-%%%%minitoc
-\dominitoc % génère la minitoc
-\nomtcrule % supprime les lignes horizontales de la minitoc
-\renewcommand{\mtctitle}{Summary} % Modifie le titre de la minitoc
-
 %%%%
 \tableofcontents
 
@@ -168,7 +163,7 @@
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\listfigurename{List of Figures}
 
-\listoffigures \mtcaddchapter 
+\listoffigures
 
 \fancyhead[R]{List of Figures}
 \newpage
@@ -182,7 +177,7 @@
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\listtablename{List of Tables}
 
-\listoftables  \mtcaddchapter 
+\listoftables
 
 \fancyhead[R]{List of Tables}
 
