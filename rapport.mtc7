@@ -1,5 +1,9 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Outils et langages utilisés}{\reset@font\mtcSfont 9}{section.3.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Présentation de l'application}{\reset@font\mtcSfont 9}{section.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Exemple de tableau}{\reset@font\mtcSSfont 10}{subsection.3.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2}Exemple de Code}{\reset@font\mtcSSfont 10}{subsection.3.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Remarques sur la bibliographie}{\reset@font\mtcSfont 11}{section.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Project Setup}{\reset@font\mtcSfont 10}{section.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1}Project Structure}{\reset@font\mtcSSfont 10}{subsection.3.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2}Build System}{\reset@font\mtcSSfont 10}{subsection.3.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3}Testing and Continuous Integration}{\reset@font\mtcSSfont 10}{subsection.3.1.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Core Module Implementation}{\reset@font\mtcSfont 10}{section.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}File IO Module Implementation}{\reset@font\mtcSfont 10}{section.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4}Network IO Module Implementation}{\reset@font\mtcSfont 10}{section.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {5}Processing Module Implementation}{\reset@font\mtcSfont 10}{section.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6}Python Bindings Implementation}{\reset@font\mtcSfont 10}{section.3.6}}
