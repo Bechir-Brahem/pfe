@@ -1,15 +1,15 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Requirement Specification}{\reset@font\mtcSfont 7}{section.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1}Actors Identification}{\reset@font\mtcSSfont 7}{subsection.2.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2}Functional Specification}{\reset@font\mtcSSfont 7}{subsection.2.1.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3}Non-Functional Specification}{\reset@font\mtcSSfont 7}{subsection.2.1.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Overall Architecture and Guidelines}{\reset@font\mtcSfont 7}{section.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Onion Architecture}{\reset@font\mtcSSfont 7}{subsection.2.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2}SOLID Principles}{\reset@font\mtcSSfont 7}{subsection.2.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3}C++ Specific Design}{\reset@font\mtcSSfont 7}{subsection.2.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1}Templates Metaprogramming}{\reset@font\mtcSSSfont 7}{subsubsection.2.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.2}C++ Idioms}{\reset@font\mtcSSSfont 7}{subsubsection.2.2.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.3}C++ Limitations}{\reset@font\mtcSSSfont 7}{subsubsection.2.2.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4}Project Architectural Design}{\reset@font\mtcSSfont 7}{subsection.2.2.4}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.1}Project Modules}{\reset@font\mtcSSSfont 7}{subsubsection.2.2.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.2}Project Architecture}{\reset@font\mtcSSSfont 7}{subsubsection.2.2.4.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.3}Class Diagram}{\reset@font\mtcSSSfont 7}{subsubsection.2.2.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Requirement Specification}{\reset@font\mtcSfont 13}{section.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1}Actors Identification}{\reset@font\mtcSSfont 13}{subsection.2.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2}Functional Specification}{\reset@font\mtcSSfont 13}{subsection.2.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3}Non-Functional Specification}{\reset@font\mtcSSfont 13}{subsection.2.1.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Overall Architecture and Guidelines}{\reset@font\mtcSfont 13}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Onion Architecture}{\reset@font\mtcSSfont 13}{subsection.2.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2}SOLID Principles}{\reset@font\mtcSSfont 13}{subsection.2.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3}C++ Specific Design}{\reset@font\mtcSSfont 13}{subsection.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1}Templates Metaprogramming}{\reset@font\mtcSSSfont 13}{subsubsection.2.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.2}C++ Idioms}{\reset@font\mtcSSSfont 13}{subsubsection.2.2.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.3}C++ Limitations}{\reset@font\mtcSSSfont 13}{subsubsection.2.2.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4}Project Architectural Design}{\reset@font\mtcSSfont 13}{subsection.2.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.1}Project Modules}{\reset@font\mtcSSSfont 13}{subsubsection.2.2.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.2}Project Architecture}{\reset@font\mtcSSSfont 13}{subsubsection.2.2.4.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.3}Class Diagram}{\reset@font\mtcSSSfont 13}{subsubsection.2.2.4.3}}

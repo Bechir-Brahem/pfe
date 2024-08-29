@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.8.26)  28 AUG 2024 11:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.8.26)  29 AUG 2024 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1085,7 +1085,7 @@ Package minitoc(hints) Info: I0046
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
 \c@lstlisting=\count493
-<insat.jpg, id=173, 2001.4775pt x 2001.4775pt>
+<insat.jpg, id=210, 2001.4775pt x 2001.4775pt>
 File: insat.jpg Graphic file (type jpg)
 <use insat.jpg>
 Package pdftex.def Info: insat.jpg  used on input line 117.
@@ -1172,16 +1172,16 @@ Package minitoc Info: I0033
 \openout2 = `Introduction/introduction.aux'.
 
  (./Introduction/introduction.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 10.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 11.
+(Font)              <10> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 11.
+(Font)              <7> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 11.
+(Font)              <5> on input line 10.
 ) [1
 
 
@@ -1203,10 +1203,26 @@ Chapter I.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 5.
-(./rapport.mtc5)) [3
+(./rapport.mtc5) [3
 
 
-] [4] [5
+]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 74.
+ (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [4]
+<Chapitre1/figures/slsreceiver.png, id=360, 528.97626pt x 297.11pt>
+File: Chapitre1/figures/slsreceiver.png Graphic file (type png)
+<use Chapitre1/figures/slsreceiver.png>
+Package pdftex.def Info: Chapitre1/figures/slsreceiver.png  used on input line 85.
+(pdftex.def)             Requested size: 423.18158pt x 237.68831pt.
+ [5{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./Chapitre1/figures/slsreceiver.png>] [6] [7] [8] [9]
+<Chapitre1/figures/gantt.png, id=388, 2890.8pt x 1586.92876pt>
+File: Chapitre1/figures/gantt.png Graphic file (type png)
+<use Chapitre1/figures/gantt.png>
+Package pdftex.def Info: Chapitre1/figures/gantt.png  used on input line 217.
+(pdftex.def)             Requested size: 483.69684pt x 265.51256pt.
+) [10 <./Chapitre1/figures/gantt.png>] [11
 
 
 
@@ -1219,10 +1235,10 @@ Chapter II.
 
 \openout6 = `rapport.mtc'.
 
-(./rapport.mtc6)) [6
+(./rapport.mtc6) [12
 
 
-] [7] [8
+]) [13] [14
 
 
 
@@ -1235,10 +1251,10 @@ Chapter III.
 
 \openout6 = `rapport.mtc'.
 
-(./rapport.mtc7)) [9
+(./rapport.mtc7)) [15
 
 
-] [10] [11
+] [16] [17
 
 
 
@@ -1251,43 +1267,35 @@ Chapter IV.
 
 \openout6 = `rapport.mtc'.
 
-(./rapport.mtc8)) [12
+(./rapport.mtc8)) [18
 
 
 ]
 \openout2 = `Conclusion/conclusion.aux'.
 
- (./Conclusion/conclusion.tex) [13
+ (./Conclusion/conclusion.tex) [19
 
 
 
 
 
-]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 233.
- (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [14
+] [20
 
 
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}]
 \openout2 = `Annexe1/annexe1.aux'.
 
- (./Annexe1/annexe1.tex [15
+ (./Annexe1/annexe1.tex [21
 
 
 ]
-<Annexe1/figures/ingenieur.jpg, id=376, 259.97125pt x 194.7275pt>
+<Annexe1/figures/ingenieur.jpg, id=479, 259.97125pt x 194.7275pt>
 File: Annexe1/figures/ingenieur.jpg Graphic file (type jpg)
 <use Annexe1/figures/ingenieur.jpg>
 Package pdftex.def Info: Annexe1/figures/ingenieur.jpg  used on input line 50.
 (pdftex.def)             Requested size: 129.9853pt x 97.3635pt.
-) [16 <./Annexe1/figures/ingenieur.jpg>]
-
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 82.
-See the caption package documentation for explanation.
-
+) [22 <./Annexe1/figures/ingenieur.jpg>]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the rapport.maf file.
@@ -1299,11 +1307,12 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
 
+
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the rapport.log file.
 
-[17
+[23
 
 
 ] (./rapport.aux (./Remerciement/remerciement.aux) (./Resumes/resumeA.aux) (./Introduction/introduction.aux) (./Chapitre1/chapitre1.aux) (./Chapitre2/chapitre2.aux) (./Chapitre3/chapitre3.aux) (./Chapitre4/chapitre4.aux) (./Conclusion/conclusion.aux) (./Annexe1/annexe1.aux))
@@ -1312,24 +1321,24 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 13F09C9D846D6F2A563883C6868613E5;8733.
+(rerunfilecheck)             Checksum: F24E27F1F94B952F139AB6172FEC9C88;10341.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27971 strings out of 476076
- 466110 string characters out of 5793775
- 1939187 words of memory out of 5000000
- 49447 multiletter control sequences out of 15000+600000
+ 28045 strings out of 476076
+ 468444 string characters out of 5793775
+ 1940187 words of memory out of 5000000
+ 49497 multiletter control sequences out of 15000+600000
  619893 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 81i,12n,95p,3329b,1309s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,12n,95p,3329b,1327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on rapport.pdf (25 pages, 756945 bytes).
+Output written on rapport.pdf (31 pages, 912839 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
- 84 named destinations out of 1000 (max. 500000)
- 355 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 
