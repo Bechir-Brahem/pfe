@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{bugden2022rust}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5c0a6597e8b9f132f7b4983df52101ba}{%
+           family={Bugden},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=44a6d2b412a7f413aedd690a93f8ded7}{%
+           family={Alahmar},
+           familyi={A\bibinitperiod},
+           given={Ayman},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{94e79fe87be463037842d65fb60739f8}
+      \strng{fullhash}{94e79fe87be463037842d65fb60739f8}
+      \strng{bibnamehash}{94e79fe87be463037842d65fb60739f8}
+      \strng{authorbibnamehash}{94e79fe87be463037842d65fb60739f8}
+      \strng{authornamehash}{94e79fe87be463037842d65fb60739f8}
+      \strng{authorfullhash}{94e79fe87be463037842d65fb60739f8}
+      \field{labelalpha}{BA22}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2206.05503}
+      \field{title}{Rust: The programming language for safety and performance}
+      \field{year}{2022}
+    \endentry
     \entry{boge2002first}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=ffbcff922860723ab82e1597ca59299a}{%
@@ -118,6 +146,39 @@
       \field{pages}{2311157}
       \range{pages}{1}
     \endentry
+    \entry{dci}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=6a577ac4f43152baee08ff731e4c2cf6}{%
+           family={Coplien},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima O},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=33ca417841a637736d0590046389b9b3}{%
+           family={Reenskaug},
+           familyi={R\bibinitperiod},
+           given={Trygve},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{fullhash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{bibnamehash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{authorbibnamehash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{authornamehash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{authorfullhash}{41623beec1f58459e047a43a48ce36e8}
+      \field{labelalpha}{CR14}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Agile Software Architecture}
+      \field{title}{The dci paradigm: Taking object orientation into the architecture world}
+      \field{year}{2014}
+      \field{pages}{25\bibrangedash 62}
+      \range{pages}{38}
+    \endentry
     \entry{dullin2024vivo}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -194,6 +255,61 @@
       \field{pages}{1338846}
       \range{pages}{1}
     \endentry
+    \entry{freeman2009growing}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1d2610ce8bb5e24f1905393cd850189b}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=506e56eba3d42322888bc7ceb5e05b67}{%
+           family={Pryce},
+           familyi={P\bibinitperiod},
+           given={Nat},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{fullhash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{bibnamehash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{authorbibnamehash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{authornamehash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{authorfullhash}{ab60a28c5d3a41bceade77dc180b9880}
+      \field{labelalpha}{FP09}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Growing object-oriented software, guided by tests}
+      \field{year}{2009}
+    \endentry
+    \entry{hintjens2013zeromq}{book}{}
+      \name{author}{1}{}{%
+        {{hash=74b25e24958740202d6f023f2b52033d}{%
+           family={Hintjens},
+           familyi={H\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {" O'Reilly Media, Inc."}%
+      }
+      \strng{namehash}{74b25e24958740202d6f023f2b52033d}
+      \strng{fullhash}{74b25e24958740202d6f023f2b52033d}
+      \strng{bibnamehash}{74b25e24958740202d6f023f2b52033d}
+      \strng{authorbibnamehash}{74b25e24958740202d6f023f2b52033d}
+      \strng{authornamehash}{74b25e24958740202d6f023f2b52033d}
+      \strng{authorfullhash}{74b25e24958740202d6f023f2b52033d}
+      \field{labelalpha}{Hin13}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ZeroMQ: messaging for many applications}
+      \field{year}{2013}
+    \endentry
     \entry{junior2010variations}{article}{}
       \name{author}{2}{}{%
         {{hash=2d27ee6288f60718647cfbfcdbe0cb88}{%
@@ -228,6 +344,39 @@
       \field{year}{2010}
       \field{pages}{13\bibrangedash 21}
       \range{pages}{9}
+    \endentry
+    \entry{pybind11}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=5f630e56bb6a31ced5d442a3b40cc68d}{%
+           family={Jakob},
+           familyi={J\bibinitperiod},
+           given={Wenzel},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7b5bbc3e9da721ccf6118389b7de93ff}{%
+           family={Rhinelander},
+           familyi={R\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1609194478ae9b17e7b1496b327a44f5}{%
+           family={Moldovan},
+           familyi={M\bibinitperiod},
+           given={Dean},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{fullhash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{bibnamehash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{authorbibnamehash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{authornamehash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{authorfullhash}{df3d0395d2c95422131c3aa85b298de0}
+      \field{labelalpha}{JRM17}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{https://github.com/pybind/pybind11}
+      \field{title}{pybind11 -- Seamless operability between C++11 and Python}
+      \field{year}{2017}
     \endentry
     \entry{lemcoff2023brilliant}{article}{}
       \true{moreauthor}
@@ -381,6 +530,31 @@
       \field{volume}{10}
       \field{year}{2023}
     \endentry
+    \entry{liskov}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=8d8bf2803c6ae711dd3210bfe6b7086f}{%
+           family={Liskov},
+           familyi={L\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{fullhash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{bibnamehash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{authorbibnamehash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{authornamehash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{authorfullhash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \field{labelalpha}{Lis87}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Addendum to the proceedings on Object-oriented programming systems, languages and applications (Addendum)}
+      \field{title}{Keynote address-data abstraction and hierarchy}
+      \field{year}{1987}
+      \field{pages}{17\bibrangedash 34}
+      \range{pages}{18}
+    \endentry
     \entry{PhysRevLett.128.024801}{article}{}
       \name{author}{4}{}{%
         {{hash=41b4de7a01e7b371117646f8bd7d9e49}{%
@@ -413,13 +587,14 @@
       \strng{authorbibnamehash}{2a1e9ed179e9576b565c7aefd8e778a3}
       \strng{authornamehash}{2a1e9ed179e9576b565c7aefd8e778a3}
       \strng{authorfullhash}{35c3c5a89962f9bee2468cdb49ee0f62}
-      \field{labelalpha}{Lv+22}
+      \field{labelalpha}{Lv2222}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2}
       \field{journaltitle}{Phys. Rev. Lett.}
+      \field{label}{Lv22}
       \field{month}{1}
       \field{title}{High-Brilliance Ultranarrow-Band X Rays via Electron Radiation in Colliding Laser Pulses}
       \field{volume}{128}
@@ -435,6 +610,188 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.128.024801
       \endverb
+    \endentry
+    \entry{martin2000design}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{extraname}{1}
+      \field{labelalpha}{Mar00}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Object Mentor}
+      \field{number}{34}
+      \field{title}{Design principles and design patterns}
+      \field{volume}{1}
+      \field{year}{2000}
+      \field{pages}{597}
+      \range{pages}{1}
+    \endentry
+    \entry{agileMartin}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ad4e516a55308f918d9fb25cd57d50b9}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima Cecil},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall PTR}%
+      }
+      \strng{namehash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{fullhash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{bibnamehash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{authorbibnamehash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{authornamehash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{authorfullhash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \field{extraname}{2}
+      \field{labelalpha}{Mar03}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{From the Publisher: Best selling author and world-renowned software development expert Robert C. Martin shows how to solve the most challenging problems facing software developers, project managers, and software project leaders today. This comprehensive, pragmatic tutorial on Agile Development and eXtreme programming, written by one of the founding father of Agile Development: Teaches software developers and project managers how to get projects done on time, and on budget using the power of Agile Development. Uses real-world case studies to show how to of plan, test, refactor, and pair program using eXtreme programming. Contains a wealth of reusable C++ and Java code. Focuses on solving customer oriented systems problems using UML and Design Patterns. Robert C. Martin is President of Object Mentor Inc. Martin and his team of software consultants use Object-Oriented Design, Patterns, UML, Agile Methodologies, and eXtreme Programming with worldwide clients. He is the author of the best-selling book Designing Object-Oriented C++ Applications Using the Booch Method (Prentice Hall, 1995), Chief Editor of, Pattern Languages of Program Design 3 (Addison Wesley, 1997), Editor of, More C++ Gems (Cambridge, 1999), and co-author of XP in Practice, with James Newkirk (Addison-Wesley, 2001). He was Editor in Chief of the C++ Report from 1996 to 1999. He is a featured speaker at international conferences and trade shows. Author Biography: ROBERT C. MARTIN is President of Object Mentor Inc. Martin and his team of software consultants use Object-Oriented Design, Patterns, UML, Agile Methodologies, and eXtreme Programming with worldwide clients. He is the author of the best-selling book Designing Object-Oriented C++ Applications Using the Booch Method (Prentice Hall, 1995), Chief Editor of, Pattern Languages of Program Design 3 (Addison Wesley, 1997), Editor of, More C++ Gems (Cambridge, 1999), and co-author of XP in Practice, with James Newkirk (Addison-Wesley, 2001). He was Editor in Chief of the C++ Report from 1996 to 1999. He is a featured speaker at international conferences and trade shows.}
+      \field{isbn}{0135974445}
+      \field{title}{Agile Software Development: Principles, Patterns, and Practices}
+      \field{year}{2003}
+    \endentry
+    \entry{cleanBlog}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{extraname}{3}
+      \field{labelalpha}{MarBlog12}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{label}{MarBlog}
+      \field{title}{The Clean Architecture}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+      \endverb
+      \verb{url}
+      \verb https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+      \endverb
+      \keyw{Clean Architecture}
+    \endentry
+    \entry{clean}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall Press}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{extraname}{4}
+      \field{labelalpha}{Martin17}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Practical Software Architecture Solutions from the Legendary Robert C. Martin (Uncle Bob) By applying universal rules of software architecture, you can dramatically improve developer productivity throughout the life of any software system. Now, building upon the success of his best-selling books Clean Code and The Clean Coder, legendary software craftsman Robert C. Martin (Uncle Bob) reveals those rules and helps you apply them. Martins Clean Architecture doesnt merely present options. Drawing on over a half-century of experience in software environments of every imaginable type, Martin tells you what choices to make and why they are critical to your success. As youve come to expect from Uncle Bob, this book is packed with direct, no-nonsense solutions for the real challenges youll facethe ones that will make or break your projects. Learn what software architects need to achieveand core disciplines and practices for achieving it Master essential software design principles for addressing function, component separation, and data management See how programming paradigms impose discipline by restricting what developers can do Understand whats critically important and whats merely a detail Implement optimal, high-level structures for web, database, thick-client, console, and embedded applications Define appropriate boundaries and layers, and organize components and services See why designs and architectures go wrong, and how to prevent (or fix) these failures Clean Architecture is essential reading for every current or aspiring software architect, systems analyst, system designer, and software managerand for every programmer who must execute someone elses designs. Register your product at informit.com/register for convenient access to downloads, updates, and/or corrections as they become available.}
+      \field{edition}{1st}
+      \field{isbn}{0134494164}
+      \field{label}{Martin}
+      \field{title}{Clean Architecture: A Craftsman's Guide to Software Structure and Design}
+      \field{year}{2017}
+    \endentry
+    \entry{meyer}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7833218c9c8ce508ce4d4482308c9da5}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Prentice-Hall, Inc.}%
+      }
+      \strng{namehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{fullhash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{bibnamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authorbibnamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authornamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authorfullhash}{7833218c9c8ce508ce4d4482308c9da5}
+      \field{labelalpha}{Mey97}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0136291554}
+      \field{title}{Object-oriented software construction (2nd ed.)}
+      \field{year}{1997}
+    \endentry
+    \entry{Onion}{article}{}
+      \name{author}{1}{}{%
+        {{hash=08e14eeefb22db2372910d911be3307f}{%
+           family={Palermo},
+           familyi={P\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{08e14eeefb22db2372910d911be3307f}
+      \strng{fullhash}{08e14eeefb22db2372910d911be3307f}
+      \strng{bibnamehash}{08e14eeefb22db2372910d911be3307f}
+      \strng{authorbibnamehash}{08e14eeefb22db2372910d911be3307f}
+      \strng{authornamehash}{08e14eeefb22db2372910d911be3307f}
+      \strng{authorfullhash}{08e14eeefb22db2372910d911be3307f}
+      \field{labelalpha}{Palermo08}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{label}{Palermo}
+      \field{title}{The Onion Architecture}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+      \endverb
+      \verb{url}
+      \verb https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+      \endverb
+      \keyw{Onion Architecture}
     \endentry
     \entry{pomeranz2009crystal}{article}{}
       \name{author}{5}{}{%

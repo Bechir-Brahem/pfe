@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.8.26)  29 AUG 2024 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.8.26)  6 SEP 2024 00:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1085,10 +1085,10 @@ Package minitoc(hints) Info: I0046
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
 \c@lstlisting=\count493
-<insat.jpg, id=210, 2001.4775pt x 2001.4775pt>
+<insat.jpg, id=270, 2001.4775pt x 2001.4775pt>
 File: insat.jpg Graphic file (type jpg)
 <use insat.jpg>
-Package pdftex.def Info: insat.jpg  used on input line 117.
+Package pdftex.def Info: insat.jpg  used on input line 119.
 (pdftex.def)             Requested size: 100.07973pt x 100.07973pt.
  [0
 
@@ -1101,7 +1101,7 @@ Package pdftex.def Info: insat.jpg  used on input line 117.
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM rapport.toc on input line 150.
+(minitoc)             PREPARING MINITOCS FROM rapport.toc on input line 152.
 Package minitoc Info: I0033
 (minitoc)             Writing rapport.mtc1.
 \openout6 = `rapport.mtc1'.
@@ -1146,26 +1146,26 @@ Package minitoc Info: I0033
 
 
 
-])
+] [3])
 \tf@toc=\write8
 \openout8 = `rapport.toc'.
 
- [3] (./rapport.lof)
+ [4] (./rapport.lof)
 \tf@lof=\write9
 \openout9 = `rapport.lof'.
 
- [4
+ [5
 
 ] (./rapport.lot)
 \tf@lot=\write10
 \openout10 = `rapport.lot'.
 
- [5
+ [6
 
 ]
 \openout2 = `Resumes/resumeA.aux'.
 
- (./Resumes/resumeA.tex) [6
+ (./Resumes/resumeA.tex) [7
 
 
 ]
@@ -1211,13 +1211,13 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 74
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [4]
-<Chapitre1/figures/slsreceiver.png, id=360, 528.97626pt x 297.11pt>
+<Chapitre1/figures/slsreceiver.png, id=442, 528.97626pt x 297.11pt>
 File: Chapitre1/figures/slsreceiver.png Graphic file (type png)
 <use Chapitre1/figures/slsreceiver.png>
 Package pdftex.def Info: Chapitre1/figures/slsreceiver.png  used on input line 85.
 (pdftex.def)             Requested size: 423.18158pt x 237.68831pt.
  [5{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./Chapitre1/figures/slsreceiver.png>] [6] [7] [8] [9]
-<Chapitre1/figures/gantt.png, id=388, 2890.8pt x 1586.92876pt>
+<Chapitre1/figures/gantt.png, id=470, 2890.8pt x 1586.92876pt>
 File: Chapitre1/figures/gantt.png Graphic file (type png)
 <use Chapitre1/figures/gantt.png>
 Package pdftex.def Info: Chapitre1/figures/gantt.png  used on input line 217.
@@ -1238,7 +1238,26 @@ Chapter II.
 (./rapport.mtc6) [12
 
 
-]) [13] [14
+] [13] [14] [15] [16] [17]
+<Chapitre2/figures/CleanArchitecture.jpg, id=538, 774.895pt x 569.12625pt>
+File: Chapitre2/figures/CleanArchitecture.jpg Graphic file (type jpg)
+<use Chapitre2/figures/CleanArchitecture.jpg>
+Package pdftex.def Info: Chapitre2/figures/CleanArchitecture.jpg  used on input line 207.
+(pdftex.def)             Requested size: 387.44655pt x 284.56242pt.
+ [18 <./Chapitre2/figures/CleanArchitecture.jpg>] [19] [20] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 319.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 319--319
+[][][][][][][] 
+ []
+
+[21]) [22] [23
 
 
 
@@ -1251,10 +1270,10 @@ Chapter III.
 
 \openout6 = `rapport.mtc'.
 
-(./rapport.mtc7)) [15
+(./rapport.mtc7)) [24
 
 
-] [16] [17
+] [25] [26
 
 
 
@@ -1267,35 +1286,40 @@ Chapter IV.
 
 \openout6 = `rapport.mtc'.
 
-(./rapport.mtc8)) [18
+(./rapport.mtc8)) [27
 
 
 ]
 \openout2 = `Conclusion/conclusion.aux'.
 
- (./Conclusion/conclusion.tex) [19
+ (./Conclusion/conclusion.tex) [28
 
 
 
 
 
-] [20
+] [29
 
 
 
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}]
+Overfull \hbox (60.85857pt too wide) in paragraph at lines 236--236
+[]\OT1/lmr/m/n/12 Jeffrey Palermo. ``The Onion Ar-chi-tec-ture''. In: (2008). \OT1/lmr/m/sc/12 url\OT1/lmr/m/n/12 : [][]$\OT1/pcr/m/n/12 https : / / jeffreypalermo .
+ []
+
+[30]
 \openout2 = `Annexe1/annexe1.aux'.
 
- (./Annexe1/annexe1.tex [21
+ (./Annexe1/annexe1.tex [31
 
 
 ]
-<Annexe1/figures/ingenieur.jpg, id=479, 259.97125pt x 194.7275pt>
+<Annexe1/figures/ingenieur.jpg, id=648, 259.97125pt x 194.7275pt>
 File: Annexe1/figures/ingenieur.jpg Graphic file (type jpg)
 <use Annexe1/figures/ingenieur.jpg>
 Package pdftex.def Info: Annexe1/figures/ingenieur.jpg  used on input line 50.
 (pdftex.def)             Requested size: 129.9853pt x 97.3635pt.
-) [22 <./Annexe1/figures/ingenieur.jpg>]
+) [32 <./Annexe1/figures/ingenieur.jpg>]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the rapport.maf file.
@@ -1312,7 +1336,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the rapport.log file.
 
-[23
+[33
 
 
 ] (./rapport.aux (./Remerciement/remerciement.aux) (./Resumes/resumeA.aux) (./Introduction/introduction.aux) (./Chapitre1/chapitre1.aux) (./Chapitre2/chapitre2.aux) (./Chapitre3/chapitre3.aux) (./Chapitre4/chapitre4.aux) (./Conclusion/conclusion.aux) (./Annexe1/annexe1.aux))
@@ -1321,24 +1345,24 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: F24E27F1F94B952F139AB6172FEC9C88;10341.
+(rerunfilecheck)             Checksum: 88CE065F4F72622CFB9AB256CD96EEA7;13651.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28045 strings out of 476076
- 468444 string characters out of 5793775
- 1940187 words of memory out of 5000000
- 49497 multiletter control sequences out of 15000+600000
- 619893 words of font info for 96 fonts, out of 8000000 for 9000
+ 28573 strings out of 476076
+ 475641 string characters out of 5793775
+ 1951187 words of memory out of 5000000
+ 49972 multiletter control sequences out of 15000+600000
+ 623869 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 81i,12n,95p,3329b,1327s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on rapport.pdf (31 pages, 912839 bytes).
+ 81i,12n,95p,3329b,1462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on rapport.pdf (42 pages, 1062027 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
- 108 named destinations out of 1000 (max. 500000)
- 437 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 753 PDF objects out of 1000 (max. 8388607)
+ 670 compressed objects within 7 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 562 words of extra memory for PDF output out of 10000 (max. 10000000)
 

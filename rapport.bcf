@@ -2370,6 +2370,23 @@
     <bcf:citekey order="5" intorder="1">lemcoff2023brilliant</bcf:citekey>
     <bcf:citekey order="5" intorder="2">dullin2024vivo</bcf:citekey>
     <bcf:citekey order="6" intorder="1">junior2010variations</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">hintjens2013zeromq</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">bugden2022rust</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">pybind11</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">clean</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">freeman2009growing</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">clean</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Onion</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">dci</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">cleanBlog</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">clean</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">cleanBlog</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">martin2000design</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">clean</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">meyer</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">liskov</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">agileMartin</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">agileMartin</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
