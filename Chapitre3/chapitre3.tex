@@ -95,7 +95,7 @@
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{Chapitre3/figures/processing_class.png}
-        \caption{Processing module}
+        \caption{Processing module class diagram}
         \label{fig:processing}
     \end{figure}
 
@@ -110,8 +110,8 @@
     can be the still image of the sample. The Pedestal substraction algorithm is used to remove
     this background signal and help in the detection of key meaningful signals. The Pedestal class
     is used to calculate the pedestal values for each pixel. Usually the pedestal values are
-    calculated by taking the average of the last N frames. However, in our case we a frame of data
-    can have 1024x1024 pixels keeping track of the last N frames would be memory intensive i.e
+    calculated by taking the moving average of the last N frames. However, in our case a frame of data
+    can have 1024x1024 pixels. Keeping track of the last N frames would be memory intensive i.e
     $O(N)$ in memory.
     In order to store the last 1000 frames for the average $1024*1024*1000*4 = 4GB$  of memory would be needed.
     Instead we keep track of the sum of the last N frames and with each new frame we subtract the
@@ -137,7 +137,7 @@
 
 
     \section{Python Bindings Implementation}
-    Writing python code is a lot of fun and very productive. It is a high-level language that is
+    Writing python code is a lot of fun and is very productive. It is a high-level language that is
     easy to learn and use. It is also very popular in the scientific community. It is used for
     data analysis, machine learning, artificial intelligence, web development, automation and many more.
 
@@ -152,6 +152,8 @@
     boilerplate code.\\
 
     Ideally, we would like to write the core of our library in C++ and then use it in Python.
+    We write high level code in Python benefetting from its simplicity and dynamic features. And
+    we leverage the performance of C++ for the internal library code.\\
     This is where Python bindings come in. Python bindings are used to expose C++ code to Python.
     There are many ways to create Python bindings such as SWIG, Boost.Python, pybind11, ctypes, CFFI...
 

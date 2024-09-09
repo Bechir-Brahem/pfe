@@ -27,12 +27,12 @@ define the endianness of the data. To represent the data types, this class inter
 class. String representation can also be used to create a Dtype object. The string representation
 is defined as "\textless" or \textgreater" for little or big endian followed by the data type and its size in bytes.
 For example "\textless i4" represents a little endian int32 and "\textgreater f8" represents a big endian float64.
-The Dtype class also provides methods to convert the data to and from the host endianness.\\
+\\
 
 The Dtype class is also very important for transferring data between the C++ and Python bindings.
 The Python bindings will use the Numpy library to handle the data. Numpy uses the python standard
 of buffer protocol\cite{bufferprotocol} to handle data exchange. The buffer protocol is a way to expose the data of an object
-to other objects. The buffer protocol is useful when we don't want to copy the data but just share it.
+to other objects. It is useful when we don't want to copy the data but just share it.
 The library allows data to go from C++ to Python and vice versa with or without copying.
 The Dtype class is used to define the data type of the incoming of outgoing buffer.\\
 
@@ -51,12 +51,12 @@ In the first iterations of the library, the \lstinline|Frame| class was template
 This allowed the user to manipulate the data of the frame directly e.g. \lstinline[language=C++]|Frame<int32_t>[x][y] = value| .
 However, this is now considered a bad design choice. Templating \lstinline|Frame| forced the user to know the type
 of the data before creating a \lstinline|Frame| object. It also propoagated complexity to higher level
-layers. For example, since classes needed to return one type, file\_io functions that read data from a file and returned
+layers. For example, file\_io functions that read data from a file and returned
 Frame objects also had to be templated and so on. This is why the \lstinline|Frame| class is now a simple class untemplated
 on the data type. and this point is why NDView and NDArray were introduced.
 
 \subsection{NDView and NDArray}
-The NDView and NDArray classes are used to manipulate the data of a Frame object or other buffers. They stant for
+The NDView and NDArray classes are used to manipulate the data of a Frame object or other buffers. They stand for
 N-Dimensional View and N-Dimensional Array. The NDView class is a non-owning view of the data. It is used to access
 the data of a buffer without copying it. It can also be used to reshape (in numpy terms) the data. NDArray is an
 owning view of the data. It copies the data of the buffer and owns it.\\
@@ -78,7 +78,7 @@ the image. A cluster is a group of pixels that are close to each other and have 
 will be part of the processing module and is beyond the scope of the core module. Clusters need to be generated, saved and read from
 files and in future iterations sent over the network. This is why a unified Cluster class definition is needed in the core module.\\
 
-Clusters are represented as a list of pixels. There's no single way to represent a cluster. The group currently uses moultiple
+Clusters are represented as a list of pixels. There's no single way to represent a cluster. The group currently uses multiple
 forms of clusters such as: fixed length clusters which are a list of pixels of a fixed size (3x3 or 2x2) centered around the maximum pixel.
 and variable length clusters which are a list of pixels that are adjacent to each other. Different cluster formats have different uses and
 applications. For example fixed size clusters are more commonly used for photon clusters while variable size clusters are more commonly used
@@ -88,8 +88,8 @@ Given these requirements, First an interface class was created to set the define
 This interface class is only used to inherit its methods in case the subsclass does not implement them. It should be
 noted that the interface class does not contain any virtual methods and is not meant to be used as a polymorphic
 class. Any implementation of a Cluster class should inherit from the ClusterInterface class. Although it isn't
-implemented, the ClusterInterface can use the Curiously Recurring Template Pattern (CRTP) to enforce that the subclass
-implements the methods in compile time.\\
+implemented, the ClusterInterface can use the Curiously Recurring Template Pattern (CRTP) and Substitution failure
+is not an error (SFINAE) idioms to enforce that the subclass implements the methods in compile time.\\
 
 First we will explain the general design of a Cluster class. The structure of a Cluster object is defined by a
 list of Field objects. A Field object is a simple class that contains a label (\lstinline[language=C++]{std::string}), a
@@ -99,6 +99,14 @@ variable length array and finally a size attribute that is used to indicate the 
 Example \ref{lst:cluster_structure} the definition of the structure of a Cluster object to represent a 3x3 int32 cluster
 that also contains an x and a y attributes:
 \begin{lstlisting}[language=C++, caption={Example: Definition of a Cluster structure},label={lst:cluster_structure}]
+// cluster definition
+struct Cluster{
+    int32_t x;
+    int32_t y;
+    int32_t pixels[9];
+};
+
+// cluster fields description
 std::vector<Field> fields = {
     Field("x", Dtype("<i4"), Field::Scalar),
     Field("y", Dtype("<i4"), Field::Scalar),
@@ -106,12 +114,12 @@ std::vector<Field> fields = {
 };
     \end{lstlisting}
 
-Given that we can define the structure of a Cluster object, we can define a DynamicCluster class that holdes the data of the
+Given that we can define the structure of a Cluster object, we can define a DynamicCluster class that holdes the data of any
 cluster and interprets it according to the structure. The DynamicCluster offers set and get methods to manipulate and access
 its data.\\
 
 Although the DynamicCluster class is very flexible and can be used to represent any type of cluster, it is not the most efficient
-way to represent all clusters. DynamicCluster allocated its data on the heap and its contents is spread accross the memory.
+way to represent all clusters. DynamicCluster allocates its data on the heap and its contents is spread accross the memory.
 For fixed size clusters this is not efficient as the data can simply be represented in a struct and be stored in contiguous
 memory.
 
@@ -121,13 +129,13 @@ with the DynamicCluster class. This is why \lstinline|tCluserData<typename DataT
 The tClusterData class is a templated class that represents a fixed size cluster. The data will be stored contiguously in
 stack memory. The tClusterData class is more efficient than the DynamicCluster class but it is less flexible.\\
 \begin{lstlisting}[language=C++, caption={Example: Reading multiple clusters from a file},label={lst:read_clusters}]
-        struct Cluster {
-            int32_t x;
-            int32_t y;
-            int32_t pixels[9];
-        }; // 3x3 cluster
-        std::vector<Cluster> clusters(10); // list of 10 clusters stored contiguously in memory
-        fread(clusters.data(), sizeof(Cluster), clusters.size(), file); // directly read 10 Clusters to memory
+struct Cluster {
+    int32_t x;
+    int32_t y;
+    int32_t pixels[9];
+}; // 3x3 cluster
+std::vector<Cluster> clusters(10); // list of 10 clusters stored contiguously in memory
+fread(clusters.data(), sizeof(Cluster), clusters.size(), file); // directly read 10 Clusters to memory
     \end{lstlisting}
 
 
@@ -169,11 +177,11 @@ Binary, HDF5, Numpy...\\
 
 From the existing slsDetectorPackage library, frame data is stored in a binary format.
 A master file written in JSON contains the metadata of the data and a .raw file contains the data itself.
-For compatibility reasons, the library also must handle master files written in text
+For compatibility reasons with an old master file format, the library also must handle master files written in text
 format following a predefined structure.
 
 In addition, since many users of the library will be using Python, the C++ library should
-read and write Numpy files. Numpy files are composed of a metadata part in plain text and
+read and write Numpy files. A Numpy file is composed of a metadata header in plain text and
 a binary part that contains the data.\\
 
 As seen in the class diagram \ref{fig:file_io_class}, the \lstinline|FileInterface| class
@@ -320,12 +328,12 @@ to use and has bindings for many languages. \cite{hintjens2013zeromq} \\
 
 ZeroMQ's model provides socket communication between threads, processes and network nodes.
 Its sockets can work with Inter Process Communication (IPC), Transmission Control Protocol (TCP),
-User Datagram Protocol (UDP), WebSockets and more. ZeroMQ sockets can be connected with other
+User Datagram Protocol (UDP), WebSockets and more. ZeroMQ sockets can be connected with each other
 following a plethora of different patters. The most common patterns are Request-Reply,
 Publish-Subscribe, Push-Pull, Pair, and Router-Dealer etc.\\
 
 ZeroMQ's philosophy is to provide a simple API that can be used to build complex systems.
-It is very flexible and extisible while also being very fast. This aligns with our library's
+It is very flexible and extensible while also being very fast. This aligns with our library's
 philosophy of being easy to use, flexible and efficient.\\
 
 \subsection{ZmqSocket classes}
@@ -334,8 +342,8 @@ These classes are responsible for receiving and sending Frame objects over the n
 derive from the ZmqSocket class which is a wrapper around the ZeroMQ socket.\\
 
 The ZmqSocket class follows the RAII idiom and wraps around the ZeroMQ socket. The ZmqSocketReceiver
-and ZmqSocketSender classes are that will be used by users to communicate with slsReceiver and
-othe network nodes.\\
+and ZmqSocketSender classes will be used by users to communicate with slsReceiver and
+other network nodes.\\
 
 The network\_io module methods return a ZmqFrame object. It is a wrapper around Frame that adds
 network metadata to it.\\
@@ -373,7 +381,7 @@ the load, multiple detectors are used.\\
 \end{figure}
 
 The ZmqMultiReceiver class is a wrapper around multiple ZmqSocketReceiver objects. It is used
-to receive data from multiple sources anc combine them into a single Frame. The user of this class
+to receive data from multiple sources and combine them into a single stream of frames. The user of this class
 must specifiy the different endpoints to connect to as well as the geometry to form the frames.\\
 
 The ZmqMultiReceiver handles the synchronization of the different streams. Detectors can drop
@@ -385,7 +393,7 @@ Instead using multiple threads to listen to each detector, the ZmqMultiReceiver 
 thread to listen to all the detectors. It uses a poller to listen to all the sockets and receive
 frames. ZeroMQ simplifies the polling operation by providing a \lstinline|zmq::poll()|
 function that can be used to poll the sockets' file descriptors. On Linux systems,
-\lstinline|zmq::poll()| uses the \lstinline|epoll()|.
+\lstinline|zmq::poll()| uses the kernel's \lstinline|epoll| interface.
 
 epoll is a Linux kernel system call that waits for events on file descriptors (sockets). It is used for
 multiplexing I/O to manage multiple connections. epoll is more efficient than the older select system call
@@ -442,7 +450,7 @@ does not support using multiple ventilators and sinks.\\
     for(auto &zmq_frame : zmq_frames){
         // 3. create task
         Task task = Task::init(zmq_frame);
-        task->id = zmq_frame.header.frameNumber;
+        task.id = zmq_frame.header.frameNumber;
 
         // 4. push task to ventilator
         ventilator.push(task);
