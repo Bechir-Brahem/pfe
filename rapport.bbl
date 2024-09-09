@@ -1,0 +1,1067 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{bugden2022rust}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5c0a6597e8b9f132f7b4983df52101ba}{%
+           family={Bugden},
+           familyi={B\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=44a6d2b412a7f413aedd690a93f8ded7}{%
+           family={Alahmar},
+           familyi={A\bibinitperiod},
+           given={Ayman},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{94e79fe87be463037842d65fb60739f8}
+      \strng{fullhash}{94e79fe87be463037842d65fb60739f8}
+      \strng{bibnamehash}{94e79fe87be463037842d65fb60739f8}
+      \strng{authorbibnamehash}{94e79fe87be463037842d65fb60739f8}
+      \strng{authornamehash}{94e79fe87be463037842d65fb60739f8}
+      \strng{authorfullhash}{94e79fe87be463037842d65fb60739f8}
+      \field{labelalpha}{BA22}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2206.05503}
+      \field{title}{Rust: The programming language for safety and performance}
+      \field{year}{2022}
+    \endentry
+    \entry{boge2002first}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=ffbcff922860723ab82e1597ca59299a}{%
+           family={Böge},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffbcff922860723ab82e1597ca59299a}
+      \strng{fullhash}{ffbcff922860723ab82e1597ca59299a}
+      \strng{bibnamehash}{ffbcff922860723ab82e1597ca59299a}
+      \strng{authorbibnamehash}{ffbcff922860723ab82e1597ca59299a}
+      \strng{authornamehash}{ffbcff922860723ab82e1597ca59299a}
+      \strng{authorfullhash}{ffbcff922860723ab82e1597ca59299a}
+      \field{labelalpha}{Bög02}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. EPAC}
+      \field{title}{First operation of the swiss light source}
+      \field{volume}{2}
+      \field{year}{2002}
+    \endentry
+    \entry{butcher2024ptychographic}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=e746438b1ff17d6733358c20533e41f3}{%
+           family={Butcher},
+           familyi={B\bibinitperiod},
+           given={Tim\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=106b816e7a71c4cd890f35240e04e3f3}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Nicholas\bibnamedelima W},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=15f248857c5929a3633d4321ff0bf5fb}{%
+           family={Chiu},
+           familyi={C\bibinitperiod},
+           given={Chun-Chien},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=9da379117096bbb6e47e1bdb0c1ab173}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Chia-Chun},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=c4ad528409fda2cd26071f2bd38e6de8}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Sheng-Zhu},
+           giveni={S\bibinithyphendelim Z\bibinitperiod}}}%
+        {{hash=05239a28a326202211635642451536ee}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yi-Chun},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=9de913c0e8f810151e27a1140c583ce8}{%
+           family={Fröjdh},
+           familyi={F\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0708269c88d98b34797e805156216956}{%
+           family={Baruffaldi},
+           familyi={B\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8cd2e39e3734cd3855760d893b077e42}{%
+           family={Carulla},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b7d333fd92160d8b2b9e9fb6de7fcbc7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jiaguo},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{1796d312b0d9f9fab77f759a020b4cca}
+      \strng{fullhash}{150de3f7b0e64d229647e91536e1a86c}
+      \strng{bibnamehash}{1796d312b0d9f9fab77f759a020b4cca}
+      \strng{authorbibnamehash}{1796d312b0d9f9fab77f759a020b4cca}
+      \strng{authornamehash}{1796d312b0d9f9fab77f759a020b4cca}
+      \strng{authorfullhash}{150de3f7b0e64d229647e91536e1a86c}
+      \field{labelalpha}{But+24}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Materials}
+      \field{title}{Ptychographic nanoscale imaging of the magnetoelectric coupling in freestanding BiFeO3}
+      \field{year}{2024}
+      \field{pages}{2311157}
+      \range{pages}{1}
+    \endentry
+    \entry{dci}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=6a577ac4f43152baee08ff731e4c2cf6}{%
+           family={Coplien},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima O},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=33ca417841a637736d0590046389b9b3}{%
+           family={Reenskaug},
+           familyi={R\bibinitperiod},
+           given={Trygve},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{fullhash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{bibnamehash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{authorbibnamehash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{authornamehash}{41623beec1f58459e047a43a48ce36e8}
+      \strng{authorfullhash}{41623beec1f58459e047a43a48ce36e8}
+      \field{labelalpha}{CR14}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Agile Software Architecture}
+      \field{title}{The dci paradigm: Taking object orientation into the architecture world}
+      \field{year}{2014}
+      \field{pages}{25\bibrangedash 62}
+      \range{pages}{38}
+    \endentry
+    \entry{dullin2024vivo}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=4ebf7004b2d7aded9c21c22f6ac3259c}{%
+           family={Dullin},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4f3a04d96aac5cef07d8f56cc7bcdc22}{%
+           family={Albers},
+           familyi={A\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=eafedc6b6c074992f984b7d54821550b}{%
+           family={Tagat},
+           familyi={T\bibinitperiod},
+           given={Aishwarya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2ea73810d1fdbd425b665d46fc211ee4}{%
+           family={Lorenzon},
+           familyi={L\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eed53c0f0f1d522d1c7380abe0af0b96}{%
+           family={D'Amico},
+           familyi={D\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7c7583c54ac6142feb06409a23115102}{%
+           family={Chiriotti},
+           familyi={C\bibinitperiod},
+           given={Sabina},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f7528c864fd65a8f1b056e346fca7bf0}{%
+           family={Sodini},
+           familyi={S\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5ce330d36702bb52cf7208207b2a5ff2}{%
+           family={Dreossi},
+           familyi={D\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=227aae166ddea47588298949373fb3a4}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Frauke},
+           giveni={F\bibinitperiod}}}%
+        {{hash=883b58bf102a5f823ad31636a04f6dc9}{%
+           family={Bergamaschi},
+           familyi={B\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{3adc6f30ac88d2f11798ccae5feabc64}
+      \strng{fullhash}{eef81f6d0b7bc6691e6f99c622f8b43f}
+      \strng{bibnamehash}{3adc6f30ac88d2f11798ccae5feabc64}
+      \strng{authorbibnamehash}{3adc6f30ac88d2f11798ccae5feabc64}
+      \strng{authornamehash}{3adc6f30ac88d2f11798ccae5feabc64}
+      \strng{authorfullhash}{eef81f6d0b7bc6691e6f99c622f8b43f}
+      \field{labelalpha}{Dul+24}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in medicine}
+      \field{title}{In vivo low-dose phase-contrast CT for quantification of functional and anatomical alterations in lungs of an experimental allergic airway disease mouse model}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{pages}{1338846}
+      \range{pages}{1}
+    \endentry
+    \entry{bufferprotocol}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9688a568902e4b07b60557b566bdd820}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Python\bibnamedelima Software},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
+      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
+      \field{labelalpha}{Fou22}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Buffer Protocol}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://docs.python.org/3/c-api/buffer.html
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3/c-api/buffer.html
+      \endverb
+    \endentry
+    \entry{freeman2009growing}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1d2610ce8bb5e24f1905393cd850189b}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=506e56eba3d42322888bc7ceb5e05b67}{%
+           family={Pryce},
+           familyi={P\bibinitperiod},
+           given={Nat},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{fullhash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{bibnamehash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{authorbibnamehash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{authornamehash}{ab60a28c5d3a41bceade77dc180b9880}
+      \strng{authorfullhash}{ab60a28c5d3a41bceade77dc180b9880}
+      \field{labelalpha}{FP09}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Growing object-oriented software, guided by tests}
+      \field{year}{2009}
+    \endentry
+    \entry{gammo2004comparing}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=97eab68af8c5dd8962192dbba02cfa9c}{%
+           family={Gammo},
+           familyi={G\bibinitperiod},
+           given={Louay},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c17363f8e18cb9ede994e75b2930223d}{%
+           family={Brecht},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ffada08a1daab00ddfed73394bf574ee}{%
+           family={Shukla},
+           familyi={S\bibinitperiod},
+           given={Amol},
+           giveni={A\bibinitperiod}}}%
+        {{hash=57ad5e6d97d47936a3e1a8996a903e76}{%
+           family={Pariag},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb35f55dc468560eddc2024e2c4989b8}
+      \strng{fullhash}{6c4571b23450cb4983d83b41352f31c2}
+      \strng{bibnamehash}{fb35f55dc468560eddc2024e2c4989b8}
+      \strng{authorbibnamehash}{fb35f55dc468560eddc2024e2c4989b8}
+      \strng{authornamehash}{fb35f55dc468560eddc2024e2c4989b8}
+      \strng{authorfullhash}{6c4571b23450cb4983d83b41352f31c2}
+      \field{labelalpha}{Gam+04}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Linux Symposium}
+      \field{title}{Comparing and evaluating epoll, select, and poll event mechanisms}
+      \field{volume}{1}
+      \field{year}{2004}
+    \endentry
+    \entry{harris2020array}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=db2b4761cc46be347b418e68660c9554}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b053969d2c6a9ec8689980fb6463cd56}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={K\bibnamedelima Jarrod},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=84397453ac4d8b4fb5057997640d09e7}{%
+           family={Van\bibnamedelimb Der\bibnamedelima Walt},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Stéfan\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=18703a2bb6a62484483c193a212da2f8}{%
+           family={Virtanen},
+           familyi={V\bibinitperiod},
+           given={Pauli},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4321feefe3d5715c6fe12639d2a1f7f1}{%
+           family={Wieser},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e8d1b0c2bff88b6bf54e2e934e2853f6}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=265437a4424f0b845118651d7d04ab93}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e4d23819637a961e0e598e1c82a8f10d}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Nathaniel\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{fullhash}{63e27a0d6ecbf357b1bb0dfd5bb26724}
+      \strng{bibnamehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{authorbibnamehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{authornamehash}{754b3dec5e203c19b9a5798bbb902222}
+      \strng{authorfullhash}{63e27a0d6ecbf357b1bb0dfd5bb26724}
+      \field{labelalpha}{Har+20}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7825}
+      \field{title}{Array programming with NumPy}
+      \field{volume}{585}
+      \field{year}{2020}
+      \field{pages}{357\bibrangedash 362}
+      \range{pages}{6}
+    \endentry
+    \entry{hintjens2013zeromq}{book}{}
+      \name{author}{1}{}{%
+        {{hash=74b25e24958740202d6f023f2b52033d}{%
+           family={Hintjens},
+           familyi={H\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {" O'Reilly Media, Inc."}%
+      }
+      \strng{namehash}{74b25e24958740202d6f023f2b52033d}
+      \strng{fullhash}{74b25e24958740202d6f023f2b52033d}
+      \strng{bibnamehash}{74b25e24958740202d6f023f2b52033d}
+      \strng{authorbibnamehash}{74b25e24958740202d6f023f2b52033d}
+      \strng{authornamehash}{74b25e24958740202d6f023f2b52033d}
+      \strng{authorfullhash}{74b25e24958740202d6f023f2b52033d}
+      \field{labelalpha}{Hin13}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ZeroMQ: messaging for many applications}
+      \field{year}{2013}
+    \endentry
+    \entry{junior2010variations}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2d27ee6288f60718647cfbfcdbe0cb88}{%
+           family={Junior},
+           familyi={J\bibinitperiod},
+           given={Muris\bibnamedelima Lage},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6460ffdae9fac9bd7015ac49f9bec072}{%
+           family={Godinho\bibnamedelima Filho},
+           familyi={G\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Moacir},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{84c38d1e85cb3843ecc285374700c219}
+      \strng{fullhash}{84c38d1e85cb3843ecc285374700c219}
+      \strng{bibnamehash}{84c38d1e85cb3843ecc285374700c219}
+      \strng{authorbibnamehash}{84c38d1e85cb3843ecc285374700c219}
+      \strng{authornamehash}{84c38d1e85cb3843ecc285374700c219}
+      \strng{authorfullhash}{84c38d1e85cb3843ecc285374700c219}
+      \field{labelalpha}{JG10}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of production economics}
+      \field{number}{1}
+      \field{title}{Variations of the kanban system: Literature review and classification}
+      \field{volume}{125}
+      \field{year}{2010}
+      \field{pages}{13\bibrangedash 21}
+      \range{pages}{9}
+    \endentry
+    \entry{pybind11}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=5f630e56bb6a31ced5d442a3b40cc68d}{%
+           family={Jakob},
+           familyi={J\bibinitperiod},
+           given={Wenzel},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7b5bbc3e9da721ccf6118389b7de93ff}{%
+           family={Rhinelander},
+           familyi={R\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1609194478ae9b17e7b1496b327a44f5}{%
+           family={Moldovan},
+           familyi={M\bibinitperiod},
+           given={Dean},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{fullhash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{bibnamehash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{authorbibnamehash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{authornamehash}{df3d0395d2c95422131c3aa85b298de0}
+      \strng{authorfullhash}{df3d0395d2c95422131c3aa85b298de0}
+      \field{labelalpha}{JRM17}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{https://github.com/pybind/pybind11}
+      \field{title}{pybind11 -- Seamless operability between C++11 and Python}
+      \field{year}{2017}
+    \endentry
+    \entry{lemcoff2023brilliant}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=22e0db0dae3e604783233880a9f05726}{%
+           family={Lemcoff},
+           familyi={L\bibinitperiod},
+           given={Tali},
+           giveni={T\bibinitperiod}}}%
+        {{hash=351c50ae233746dd766bbf222507de5a}{%
+           family={Alus},
+           familyi={A\bibinitperiod},
+           given={Lotem},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d63b4839c015ef1a7148209068455cba}{%
+           family={Haataja},
+           familyi={H\bibinitperiod},
+           given={Johannes\bibnamedelima S},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=cd7599f6236a6a413a2f9a7be3888b84}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Avital},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e90ad2e3d8ba39350d50a7703bc8d5c0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Gan},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f21a5040d0b0d32c6d04205d2a9efb64}{%
+           family={Pavan},
+           familyi={P\bibinitperiod},
+           given={Mariela\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f4fc558dea59780d4c8904387161a264}{%
+           family={Yallapragada},
+           familyi={Y\bibinitperiod},
+           given={Venkata\bibnamedelima Jayasurya},
+           giveni={V\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1338a872b6ebaa7b8d857b59c0733436}{%
+           family={Vignolini},
+           familyi={V\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b663543fecd97b4aa43d71f9c413b396}{%
+           family={Oron},
+           familyi={O\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dc57e5a4fd817fffd52c0cf040bd102e}{%
+           family={Schertel},
+           familyi={S\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{d26f3ec6dc420b93e8e9cdee04ca1753}
+      \strng{fullhash}{da1ca98bc9150e5d3e730b85668576ca}
+      \strng{bibnamehash}{d26f3ec6dc420b93e8e9cdee04ca1753}
+      \strng{authorbibnamehash}{d26f3ec6dc420b93e8e9cdee04ca1753}
+      \strng{authornamehash}{d26f3ec6dc420b93e8e9cdee04ca1753}
+      \strng{authorfullhash}{da1ca98bc9150e5d3e730b85668576ca}
+      \field{labelalpha}{Lem+23}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Photonics}
+      \field{number}{6}
+      \field{title}{Brilliant whiteness in shrimp from ultra-thin layers of birefringent nanospheres}
+      \field{volume}{17}
+      \field{year}{2023}
+      \field{pages}{485\bibrangedash 493}
+      \range{pages}{9}
+    \endentry
+    \entry{leonarski2023kilohertz}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=76b39a8126486c5b090188ff8eed3525}{%
+           family={Leonarski},
+           familyi={L\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b6b0cd4d46aa93f36f7d6d88ed9091d3}{%
+           family={Nan},
+           familyi={N\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=09de8fe471a1f270cff5d60480c44dd9}{%
+           family={Matej},
+           familyi={M\bibinitperiod},
+           given={Zdenek},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4d00ac5543be0df3aca7039891bbd3dd}{%
+           family={Bertrand},
+           familyi={B\bibinitperiod},
+           given={Quentin},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=34e0c760adf5cb8451ddb45ee8ef5da9}{%
+           family={Furrer},
+           familyi={F\bibinitperiod},
+           given={Antonia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4ad64b1b98fc79aaf5c81a050e8477d8}{%
+           family={Gorgisyan},
+           familyi={G\bibinitperiod},
+           given={Ishkhan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=7556f18821dae5498619a623307f4b06}{%
+           family={Bjelčić},
+           familyi={B\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=214198cf36bbe4ba4d81282d76174fe1}{%
+           family={Kepa},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e3c341063f4014b3744cbd7b0629e7de}{%
+           family={Glover},
+           familyi={G\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+        {{hash=04a162e5faa4a18a26687a847cdb16c0}{%
+           family={Hinger},
+           familyi={H\bibinitperiod},
+           given={Viktoria},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{1847c98ed3c9ba2ec9fbf69754e77452}
+      \strng{fullhash}{52219c34d55dc1308dc980cdc8ea7b7c}
+      \strng{bibnamehash}{1847c98ed3c9ba2ec9fbf69754e77452}
+      \strng{authorbibnamehash}{1847c98ed3c9ba2ec9fbf69754e77452}
+      \strng{authornamehash}{1847c98ed3c9ba2ec9fbf69754e77452}
+      \strng{authorfullhash}{52219c34d55dc1308dc980cdc8ea7b7c}
+      \field{labelalpha}{Leo+23}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IUCrJ}
+      \field{number}{6}
+      \field{title}{Kilohertz serial crystallography with the JUNGFRAU detector at a fourth-generation synchrotron source}
+      \field{volume}{10}
+      \field{year}{2023}
+    \endentry
+    \entry{liskov}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=8d8bf2803c6ae711dd3210bfe6b7086f}{%
+           family={Liskov},
+           familyi={L\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{fullhash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{bibnamehash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{authorbibnamehash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{authornamehash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \strng{authorfullhash}{8d8bf2803c6ae711dd3210bfe6b7086f}
+      \field{labelalpha}{Lis87}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Addendum to the proceedings on Object-oriented programming systems, languages and applications (Addendum)}
+      \field{title}{Keynote address-data abstraction and hierarchy}
+      \field{year}{1987}
+      \field{pages}{17\bibrangedash 34}
+      \range{pages}{18}
+    \endentry
+    \entry{PhysRevLett.128.024801}{article}{}
+      \name{author}{4}{}{%
+        {{hash=41b4de7a01e7b371117646f8bd7d9e49}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Q.\bibnamedelimi Z.},
+           giveni={Q\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=d6b7e20d0c1f068b8bea290d1de1301d}{%
+           family={Raicher},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bace228e862c425a6ebd3f0c77519aec}{%
+           family={Keitel},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=dc5be00ddf1a39b0c7b5483e343e0f08}{%
+           family={Hatsagortsyan},
+           familyi={H\bibinitperiod},
+           given={K.\bibnamedelimi Z.},
+           giveni={K\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2a1e9ed179e9576b565c7aefd8e778a3}
+      \strng{fullhash}{35c3c5a89962f9bee2468cdb49ee0f62}
+      \strng{bibnamehash}{2a1e9ed179e9576b565c7aefd8e778a3}
+      \strng{authorbibnamehash}{2a1e9ed179e9576b565c7aefd8e778a3}
+      \strng{authornamehash}{2a1e9ed179e9576b565c7aefd8e778a3}
+      \strng{authorfullhash}{35c3c5a89962f9bee2468cdb49ee0f62}
+      \field{labelalpha}{Lv2222}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{label}{Lv22}
+      \field{month}{1}
+      \field{title}{High-Brilliance Ultranarrow-Band X Rays via Electron Radiation in Colliding Laser Pulses}
+      \field{volume}{128}
+      \field{year}{2022}
+      \field{pages}{024801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.128.024801
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.128.024801
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.128.024801
+      \endverb
+    \endentry
+    \entry{martin2000design}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{extraname}{1}
+      \field{labelalpha}{Mar00}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Object Mentor}
+      \field{number}{34}
+      \field{title}{Design principles and design patterns}
+      \field{volume}{1}
+      \field{year}{2000}
+      \field{pages}{597}
+      \range{pages}{1}
+    \endentry
+    \entry{agileMartin}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ad4e516a55308f918d9fb25cd57d50b9}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima Cecil},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall PTR}%
+      }
+      \strng{namehash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{fullhash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{bibnamehash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{authorbibnamehash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{authornamehash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \strng{authorfullhash}{ad4e516a55308f918d9fb25cd57d50b9}
+      \field{extraname}{2}
+      \field{labelalpha}{Mar03}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{From the Publisher: Best selling author and world-renowned software development expert Robert C. Martin shows how to solve the most challenging problems facing software developers, project managers, and software project leaders today. This comprehensive, pragmatic tutorial on Agile Development and eXtreme programming, written by one of the founding father of Agile Development: Teaches software developers and project managers how to get projects done on time, and on budget using the power of Agile Development. Uses real-world case studies to show how to of plan, test, refactor, and pair program using eXtreme programming. Contains a wealth of reusable C++ and Java code. Focuses on solving customer oriented systems problems using UML and Design Patterns. Robert C. Martin is President of Object Mentor Inc. Martin and his team of software consultants use Object-Oriented Design, Patterns, UML, Agile Methodologies, and eXtreme Programming with worldwide clients. He is the author of the best-selling book Designing Object-Oriented C++ Applications Using the Booch Method (Prentice Hall, 1995), Chief Editor of, Pattern Languages of Program Design 3 (Addison Wesley, 1997), Editor of, More C++ Gems (Cambridge, 1999), and co-author of XP in Practice, with James Newkirk (Addison-Wesley, 2001). He was Editor in Chief of the C++ Report from 1996 to 1999. He is a featured speaker at international conferences and trade shows. Author Biography: ROBERT C. MARTIN is President of Object Mentor Inc. Martin and his team of software consultants use Object-Oriented Design, Patterns, UML, Agile Methodologies, and eXtreme Programming with worldwide clients. He is the author of the best-selling book Designing Object-Oriented C++ Applications Using the Booch Method (Prentice Hall, 1995), Chief Editor of, Pattern Languages of Program Design 3 (Addison Wesley, 1997), Editor of, More C++ Gems (Cambridge, 1999), and co-author of XP in Practice, with James Newkirk (Addison-Wesley, 2001). He was Editor in Chief of the C++ Report from 1996 to 1999. He is a featured speaker at international conferences and trade shows.}
+      \field{isbn}{0135974445}
+      \field{title}{Agile Software Development: Principles, Patterns, and Practices}
+      \field{year}{2003}
+    \endentry
+    \entry{marathe2015introduction}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5bf7a951d07f2d5e45eaa4bac93b4a5b}{%
+           family={Marathe},
+           familyi={M\bibinitperiod},
+           given={Nikhil},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bf7a951d07f2d5e45eaa4bac93b4a5b}
+      \strng{fullhash}{5bf7a951d07f2d5e45eaa4bac93b4a5b}
+      \strng{bibnamehash}{5bf7a951d07f2d5e45eaa4bac93b4a5b}
+      \strng{authorbibnamehash}{5bf7a951d07f2d5e45eaa4bac93b4a5b}
+      \strng{authornamehash}{5bf7a951d07f2d5e45eaa4bac93b4a5b}
+      \strng{authorfullhash}{5bf7a951d07f2d5e45eaa4bac93b4a5b}
+      \field{labelalpha}{Mar15}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nikhilm. github. io}
+      \field{title}{An Introduction to libuv}
+      \field{volume}{2}
+      \field{year}{2015}
+    \endentry
+    \entry{cleanBlog}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{extraname}{3}
+      \field{labelalpha}{MarBlog12}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{label}{MarBlog}
+      \field{title}{The Clean Architecture}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+      \endverb
+      \verb{url}
+      \verb https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+      \endverb
+      \keyw{Clean Architecture}
+    \endentry
+    \entry{clean}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall Press}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{extraname}{4}
+      \field{labelalpha}{Martin17}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Practical Software Architecture Solutions from the Legendary Robert C. Martin (Uncle Bob) By applying universal rules of software architecture, you can dramatically improve developer productivity throughout the life of any software system. Now, building upon the success of his best-selling books Clean Code and The Clean Coder, legendary software craftsman Robert C. Martin (Uncle Bob) reveals those rules and helps you apply them. Martins Clean Architecture doesnt merely present options. Drawing on over a half-century of experience in software environments of every imaginable type, Martin tells you what choices to make and why they are critical to your success. As youve come to expect from Uncle Bob, this book is packed with direct, no-nonsense solutions for the real challenges youll facethe ones that will make or break your projects. Learn what software architects need to achieveand core disciplines and practices for achieving it Master essential software design principles for addressing function, component separation, and data management See how programming paradigms impose discipline by restricting what developers can do Understand whats critically important and whats merely a detail Implement optimal, high-level structures for web, database, thick-client, console, and embedded applications Define appropriate boundaries and layers, and organize components and services See why designs and architectures go wrong, and how to prevent (or fix) these failures Clean Architecture is essential reading for every current or aspiring software architect, systems analyst, system designer, and software managerand for every programmer who must execute someone elses designs. Register your product at informit.com/register for convenient access to downloads, updates, and/or corrections as they become available.}
+      \field{edition}{1st}
+      \field{isbn}{0134494164}
+      \field{label}{Martin}
+      \field{title}{Clean Architecture: A Craftsman's Guide to Software Structure and Design}
+      \field{year}{2017}
+    \endentry
+    \entry{meyer}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7833218c9c8ce508ce4d4482308c9da5}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Prentice-Hall, Inc.}%
+      }
+      \strng{namehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{fullhash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{bibnamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authorbibnamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authornamehash}{7833218c9c8ce508ce4d4482308c9da5}
+      \strng{authorfullhash}{7833218c9c8ce508ce4d4482308c9da5}
+      \field{labelalpha}{Mey97}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0136291554}
+      \field{title}{Object-oriented software construction (2nd ed.)}
+      \field{year}{1997}
+    \endentry
+    \entry{Onion}{article}{}
+      \name{author}{1}{}{%
+        {{hash=08e14eeefb22db2372910d911be3307f}{%
+           family={Palermo},
+           familyi={P\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{08e14eeefb22db2372910d911be3307f}
+      \strng{fullhash}{08e14eeefb22db2372910d911be3307f}
+      \strng{bibnamehash}{08e14eeefb22db2372910d911be3307f}
+      \strng{authorbibnamehash}{08e14eeefb22db2372910d911be3307f}
+      \strng{authornamehash}{08e14eeefb22db2372910d911be3307f}
+      \strng{authorfullhash}{08e14eeefb22db2372910d911be3307f}
+      \field{labelalpha}{Palermo08}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{label}{Palermo}
+      \field{title}{The Onion Architecture}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+      \endverb
+      \verb{url}
+      \verb https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
+      \endverb
+      \keyw{Onion Architecture}
+    \endentry
+    \entry{pitchfork}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f07f8c0bb44dae5be252785bd93aa2d1}{%
+           family={Pike},
+           familyi={P\bibinitperiod},
+           given={Colby},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f07f8c0bb44dae5be252785bd93aa2d1}
+      \strng{fullhash}{f07f8c0bb44dae5be252785bd93aa2d1}
+      \strng{bibnamehash}{f07f8c0bb44dae5be252785bd93aa2d1}
+      \strng{authorbibnamehash}{f07f8c0bb44dae5be252785bd93aa2d1}
+      \strng{authornamehash}{f07f8c0bb44dae5be252785bd93aa2d1}
+      \strng{authorfullhash}{f07f8c0bb44dae5be252785bd93aa2d1}
+      \field{labelalpha}{Pik18}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pitchfork is a Set of C++ Project Conventions}
+      \field{year}{2018}
+    \endentry
+    \entry{pomeranz2009crystal}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bf1c0eee59c32773d65cb5e7e9679b27}{%
+           family={Pomeranz\bibnamedelima Krummel},
+           familyi={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Daniel\bibnamedelima A},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c93b7403343f980ac16c53f5f728a1fc}{%
+           family={Oubridge},
+           familyi={O\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c6fb9c91b4696b95c7c83ca887dae11f}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={Adelaine\bibnamedelima KW},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5c192732c443823af14dfba21c56087e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jade},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ac4f0fd306b413834b1761fa3b25fbbe}{%
+           family={Nagai},
+           familyi={N\bibinitperiod},
+           given={Kiyoshi},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{cd8b3aeb9d4135d381921f27dc88bd73}
+      \strng{fullhash}{6b6ac9106762cc8c2bc3d2111ddb8d6c}
+      \strng{bibnamehash}{cd8b3aeb9d4135d381921f27dc88bd73}
+      \strng{authorbibnamehash}{cd8b3aeb9d4135d381921f27dc88bd73}
+      \strng{authornamehash}{cd8b3aeb9d4135d381921f27dc88bd73}
+      \strng{authorfullhash}{6b6ac9106762cc8c2bc3d2111ddb8d6c}
+      \field{labelalpha}{Pom+09}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7237}
+      \field{title}{Crystal structure of human spliceosomal U1 snRNP at 5.5 {Å} resolution}
+      \field{volume}{458}
+      \field{year}{2009}
+      \field{pages}{475\bibrangedash 480}
+      \range{pages}{6}
+    \endentry
+    \entry{aboutSLS}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2af0d52176dad70979954a7c6f0e6ccc}{%
+           family={Website},
+           familyi={W\bibinitperiod},
+           given={PSI},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{fullhash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{bibnamehash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{authorbibnamehash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{authornamehash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{authorfullhash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \field{labelalpha}{Web}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About Swiss Light Source SLS}
+      \verb{urlraw}
+      \verb https://www.psi.ch/en/sls/about-sls
+      \endverb
+      \verb{url}
+      \verb https://www.psi.ch/en/sls/about-sls
+      \endverb
+      \keyw{SLS,PSI}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

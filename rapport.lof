@@ -1,0 +1,30 @@
+\contentsline {xchapter}{}{v}{Doc-Start}%
+\contentsline {xchapter}{}{vi}{Doc-Start}%
+\contentsline {xpart}{Chapter 1}{2}{part.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Project Context and Scope}{3}{chapter.1}%
+\contentsline {figure}{\numberline {I.1}{\ignorespaces A picture of the Paul Scherrer Institute. The SLS is the large circular building. PSI has two main parts the East and West separated by the Aare river.}}{5}{figure.caption.2}%
+\contentsline {figure}{\numberline {I.2}{\ignorespaces slsDetectorPackage setup for two detectors. Configuration uses TCP while data streaming from detector to slsReceiver uses UDP}}{6}{figure.caption.3}%
+\contentsline {figure}{\numberline {I.3}{\ignorespaces Gantt Diagram of the 6 phases of development. A margin was left at the end of the project to account for holidays, vacation days and development delays}}{11}{figure.caption.4}%
+\contentsline {xpart}{Chapter 2}{12}{part.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Requirement Specification and Overall Architecture}{13}{chapter.2}%
+\contentsline {figure}{\numberline {II.1}{\ignorespaces Diagram of the Clean Architecture: the circles represent the different layers of the architecture, the arrows represent the dependencies between the layers. The bottom right part of the diagram shows how dependencies are inverted.}}{19}{figure.caption.7}%
+\contentsline {figure}{\numberline {II.2}{\ignorespaces Diagram of the Project Architecture}}{27}{figure.caption.8}%
+\contentsline {figure}{\numberline {II.3}{\ignorespaces Project folder structure}}{28}{figure.caption.9}%
+\contentsline {xpart}{Chapter 3}{31}{part.3}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implementation of a Flexible Data Analysis Library for Hybrid X-ray Particle Detectors }{32}{chapter.3}%
+\contentsline {figure}{\numberline {III.1}{\ignorespaces Core module simplified class diagram}}{33}{figure.caption.12}%
+\contentsline {figure}{\numberline {III.2}{\ignorespaces File IO module class diagram}}{38}{figure.caption.13}%
+\contentsline {figure}{\numberline {III.3}{\ignorespaces Network IO module class diagram}}{42}{figure.caption.14}%
+\contentsline {figure}{\numberline {III.4}{\ignorespaces Illustration of the ZmqMultiReceiver class: multiple detectors send frames to the ZmqMultiReceiver which combines them into a single Frame. The ZmqMultiReceiver also manages the synchronization between streams.}}{45}{figure.caption.15}%
+\contentsline {figure}{\numberline {III.5}{\ignorespaces Illustration of the task distribution system. The task ventilator class distributes tasks to multiple workers. The workers process the tasks and send the results back to the sink.}}{46}{figure.caption.16}%
+\contentsline {figure}{\numberline {III.6}{\ignorespaces Processing module class diagram}}{49}{figure.caption.17}%
+\contentsline {xpart}{Chapter 4}{53}{part.4}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Library Applications and Evaluation}{54}{chapter.4}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusion and Perspectives}{55}{chapter*.21}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Appendix : Miscellaneous remarks}{58}{chapter*.22}%
