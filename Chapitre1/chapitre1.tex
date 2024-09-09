@@ -18,8 +18,10 @@
     %==============================================================================
 
     \section*{Introduction}
-    In this first chapter we will present the Paul Scherrer Institute, the host company of the project.
-    We will also introduce 
+    In this first chapter, we introduce the Paul Scherrer institut and its detectors group.
+    We explain the need for our project and the problems it aims to solve. Furthermore,
+    we will go through the goals of the project and provide a high-level timeline
+    capturing its progression.
 
     \section{Presentation of The Host Company}
     The Paul Scherrer Institute (PSI) is the largest research institute for natural and engineering sciences within Switzerland.
@@ -37,31 +39,29 @@
     \end{itemize}
 
     In addition the Paul Scherrer Institute is famous for its synchotron: the Swiss Light Source (SLS).
+    A synchotron is a charged particle accelerator that accelerates electrons to nearly the speed of light. The electrons are then
+    forced to travel in a circular path, and emit synchrotron radiation in the form of x-rays.
+    Scientists use the x-rays to study the properties of materials, and to perform experiments in a wide range of fields.
+    
     The SLS is a third-generation synchrotron light source, which provides high-brilliance photon beams
-    with high spectral resolution and tunable energy. It is used for a wide range of experiments in materials science,
-    biology and chemistry. \cite{boge2002first, aboutSLS, PhysRevLett.128.024801}
+    with high spectral resolution and tunable energy. It is used for reseach in materials science,
+    biology, chemistry and more. \cite{boge2002first, aboutSLS, PhysRevLett.128.024801}.
 
+    \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{Chapitre1/figures/psi.jpg}
+        \caption{A picture of the Paul Scherrer Institute. The SLS is the large circular building. 
+         PSI has two main parts the East and West separated by the Aare river.}
+        \label{fig:sls}
+    \end{figure}
 
-
-
-
-
-
-
-
-    % \begin{figure}[!ht]\centering
-    % \includegraphics[scale=0.9]{art.jpg}
-    % \caption{État de l'art}
-    % \label{fig:fig1}
-    % \end{figure}
     \section{Detector's Group Presentation and Work}
     The Detector's Group is one of the research groups at the Paul Scherrer Institute. It is part of the Laboratory for X-ray Nanoscience and Technologies (LXN) which itself
     is part of the Center for Photon Science.
 
     % The group is composed of around 28 people, including the group leaders.
     The group is responsible for the development of new detectors, the maintenance of the existing ones, and the
-    development of software for the data acquisition and analysis. It is responsible for the development
-    of new technologies for the detectors, such as new sensors, readout electronics, and data acquisition systems.
+    development of software for the data acquisition and analysis. 
     The group is also involved in the development of new techniques for the data analysis, such as image processing,
     pattern recognition, and machine learning.
     These Detector's are an integral part of the beamline's setup, and are used to detect the x-ray photons that are
@@ -69,7 +69,7 @@
     protein structures \cite{pomeranz2009crystal}, crystallography \cite{leonarski2023kilohertz}, biology \cite{lemcoff2023brilliant,dullin2024vivo}, and many other fields of research.
 
     On the software side, the group is responsible for the development of the software that is used to control the detectors, acquire the data, and analyze it.
-    The software is developed in C++ and is used by the scientists to perform their experiments.
+    The software is developed in C++ and is used by scientists to perform their experiments.
     The main package maintained by the detector's group is the "SLS Detector Package" available publicly
     on \url{https://github.com/slsdetectorgroup/slsDetectorPackage}. The package provides several binaries such as:
     \begin{itemize}
@@ -100,7 +100,7 @@
     The slsDetectorPackage is a very powerful software package, but it has some major limitations.
     \subsubsection{Code Complexity}
     First, the code is very complex and has a steep learning curve. The code is written in C++ and uses
-    many advanced features of the language. The code is also very large, with many thousands of lines of code.
+    many advanced features of the language. The code is also very large, with around 200 thousand lines of code.
     This makes it difficult for new users to understand how the code works, and to modify it to suit their needs.
     In addition, scientists are not software engineers, and in case of a bug, new feature or a specific use case
     they will be exposed to complex code that they are not familiar with. This might include the need to understand
@@ -112,7 +112,7 @@
     to modify it to work in a different way. This means that scientists are limited in what they can do with the code,
     and they are forced to work within the constraints of the existing code. This can be very frustrating for scientists,
     who may have specific requirements that are not met by the existing code.
-    Furthermore, some of the speicific use case code is very brittle and can break easily if the code is modified.
+    Furthermore, some of the speicific use case implementations are very brittle and can break easily if the code is modified.
     It lacks proper testing, error handling and logging. This makes it difficult to maintain and extend the code.
 
 
@@ -124,8 +124,8 @@
 
     \subsubsection{Data Storage Limitations}
     As the detectors become more and more advanced, the amount of data that they produce is increasing.
-    This has made processing the incoming data in real-time a must. The slsDetectorPackage provides very limited
-    functionalities for processing data on the fly. This means that scientists are forced to store the data on disk
+    This has made processing the incoming data in real-time a must. The slsDetectorPackage provides limited
+    functionalities for processing data on the fly. This means that scientists need to store the data on disk
     and process it later. This is not ideal and is becoming less practical as the amount of data can be very expensive to
     store and process. The new library should be designed to process around 10GB/s of data in real-time.
 
@@ -221,7 +221,9 @@
     \end{figure}
 
     \section*{Conclusion}
-    La conclusion est en général sans numérotation, et n'apparaît pas dans la table des matières.
+    In this chapter we presented the host company and the key difficulties faced 
+    by its detectors group. Following this we established the goals of the project
+    and the methodology that we will follow to achieve them. 
 
 
     %==============================================================================

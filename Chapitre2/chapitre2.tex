@@ -47,7 +47,7 @@
         \item Reorder the binary frame data according to the detector type.
         \item In case of part files (data split accross multiple files), the library should be able to read all the files and reconstruct the data.
         \item Read/Write metadata from different file formats: JSON, Raw.
-        \item Define a new cluster file format (.clust2) to store processed cluster data. The file format must
+        \item Define a new cluster file format (.clust2) to store cluster data. The file format must
               be flexible to accomodate different types of structured data.
         \item Read/Write from the new cluster file format.
     \end{itemize}
@@ -56,7 +56,7 @@
     The library should provide the scientists an interface to handle network input/output:
     \begin{itemize}
         \item Read frame data from multiple receivers using ZeroMQ. \cite{hintjens2013zeromq}
-        \item Syncronize the data streams coming from different receivers and merge them into a single data stream.
+        \item Synchronize the data streams coming from different receivers and merge them into a single data stream.
         \item Send data to multiple server using ZeroMQ. Thses servers can be other existing GUI applications.
         \item Provide an interface to distribute tasks accross multiple workers using ZeroMQ.
     \end{itemize}
@@ -67,17 +67,17 @@
     In addition implementing these basic algorithms will help the scientist to understand the library and how to use it.
     Therefore helps in acclerating the adoption of the library.
 
-    Specifically the library should implement a Cluster Finder algorithm that can be used to find clusters in a frame of data.
+    Specifically the library should implement a cluster finder algorithm that can be used to find clusters in a frame of data.
     and also a pedestal subtraction algorithm that can be used to remove the background noise from the data.
 
     \subsubsection{Python Interface}
 
     Most scientists prefer to use Python for their data analysis tasks. Python has
     become the de facto language for data analysis and machine learning.
-    It is easier to use than C/C++ and it less verbose. It has a large number of libraries
+    It is easier to use than C/C++ and is less verbose. It has a large number of libraries
     that can be used for data analysis and visualizations.
 
-    Therefore the library should provide a Python interface that can be used to access the library functionalities.
+    Therefore the library should provide a Python interface that can be used to access its functionalities.
     The Python interface should be easy to use, similar to other Python libraries like Numpy and Pandas.
 
 
@@ -92,8 +92,7 @@
     The library should be able to handle different types of errors that can occur during the data processing.
     It should be able to recover from these errors and continue processing the data.
     The library should also be able to handle different types of data corruptions that can occur during the data acquisition.
-    For example if a frame of data is corrupted (in a file or from the network), it should be skipped the program continues processing the rest of the data.
-    Or in the case of a network error, the software should reconnect to the network and continue receiving the data.
+    For example in case of a network error, the software should reconnect to the network and continue receiving the data.
     Furthermore, Thorough testing on multiple levels and on different scenarios is required to ensure the integrity of the code.
 
     \subsubsection{Portability}
@@ -118,12 +117,12 @@
     It is designed to be safe and fast \cite{bugden2022rust}. However, it is still a young language and the ecosystem is not as mature as C++.
     Java is a good candidate for performance and portability, but it is not as fast as C++.
     Therefore, C++ is the best candidate for this task. It is a mature language with a large ecosystem and a large number of libraries that can be used.
-    It is also a very fast language that can be optimized to run close to the hardware. It is also a language that is well known by the scientist community.\\
+    It is also a very fast language that can be optimized to run close to the hardware. Plus, it is used in many related scientific solutions.\\
 
     Second, to provide high performance python code, the library should be implemented in C++ and then wrapped in Python using the Pybind11 library \cite{pybind11}.
     Pybind11 is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.
-    It is easy to use and provides a high level of abstraction to the developer. It is also very fast and does not introduce a lot of overhead.
-    It is also compatible with the C++ standard library and can be used with other C++ libraries.\\
+    It is easy to use and provides a high level of abstraction to the developer. It is also very fast and does not introduce a lot of overhead.\\
+    
 
     Third, it is possible to modularize the library into different modules where each module is responsible for a specific domain.
     This will help in organizing the code and make it easier to maintain and evolve. It will also help in parallelizing the development of the library.
@@ -198,7 +197,7 @@
         \item Entities: This layer contains the business objects of the system. These objects are the core of the system and they are independent of any other layer.
         \item Use Cases: This layer contains the application-specific business rules. It contains the use cases of the system. Each use case is a single action that the system can perform.
         \item Interface Adapters: This layer contains the interfaces that the system uses to communicate with the outside world. It contains the presenters, controllers, and gateways.
-        \item Frameworks and Drivers: This layer contains the frameworks and drivers that the system uses to communicate with the outside world. It contains the web frameworks, databases, and other external systems.
+        \item Frameworks and Drivers: This layer contains the frameworks and drivers that the system uses. It contains the web frameworks, databases, and other external systems.
 
     \end{itemize}
 
@@ -345,12 +344,173 @@ T add(T a) {
 
 
     \subsubsection{C++ Idioms}
-    
-    \subsubsection{C++ Limitations}
+    C++ is an "old" language that has evolved over the years. It offers a lot of complex
+    features that can be combined to create very powerful and efficient code. It also has limitations
+    especially as it is not memory safe and it is easy to introduce bugs.\\
+
+    For this reason, it is important to follow some idioms and best practices when writing C++ code.
+    Some of the most important idioms are:\\ \\
+    \textbf{RAII (Resource Acquisition Is Initialization)}:
+    This idiom states that important resources' lifecycle should be bound to the lifetime of
+    an object. This way the resource is automatically acquired when the object is constructed and
+    released when the object goes out of scope. Another name for this idiom is
+    Scope Bound Resource Management.\\
+
+    One of the most common errors in C++ is allocating memory, opening files or sockets and forgetting
+    to release them. This can lead to leaks in the program and can cause the program to crash.
+    The RAII idiom is widely used to avoid these problems.\\
+
+    As this project will use a lot file pointers, sockets and memory resources, it is very important
+    to wrap these resources in RAII objects. This will ensure that the resources are released when
+    they are no longer needed.\\
+
+
+    \textbf{Curiously Recurring Template Pattern (CRTP)}:
+    The CRTP is a design pattern that is used to add functionality to a class by inheriting
+    from a base class. The base class is a template class that takes the derived class as a
+    template parameter. This allows the base class to access the members of the derived class.\\
+
+    \begin{lstlisting}[language=C++,caption={Example of CRTP},label={lst:crtp}]
+template <typename T>
+class Base {
+    void foo() {
+        static_cast<T*>(this)->bar();
+    }
+};
+
+class Derived : public Base<Derived> {
+    void bar() {
+        // do something
+    }
+};        
+    \end{lstlisting}
+
+    In the above example \ref{lst:crtp}, the class Base is a template class that takes a type T
+    as a template parameter. The class has a function foo that calls the function bar of the
+    derived class. The derived class must inherit from the base class and pass itself as the
+    template parameter.\\
+
+    It is a technique that involves using inheritance and static polymorphism to achieve a
+    form of compile-time polymorphism. Indeed the CRTP allows for compile-time optimization
+    and inlining of code since the method calls are resolved at compile time. It also
+    eliminates the runtime overhead associated with virtual function calls, making it
+    suitable for performance-critical code.\\
+
+
+    \textbf{Type Erasure}
+    Type erasure is a programming technique in C++ used to enable polymorphism without
+    sacrificing performance or introducing unnecessary runtime overhead. It allows the
+    creation of interfaces and containers that can work with objects of different types
+    in a type-safe manner while deferring the determination of the actual types until runtime.\\
+
+    Type erasure is often used to implement generic programming in C++ where the type of
+    the objects is not known at compile time. It is also used to implement interfaces that
+    can work with objects of different types.\\
+
+    the std::function and std::any classes in the C++ standard library are examples of type
+    erasure. They allow the creation of objects that can hold objects of different types
+    and call their methods without knowing the actual type of the object.\\
+
+    \begin{lstlisting}[language=C++,caption={Example of Type Erasure},label={lst:erasure}]
+Shape circle = Circle(5);
+Shape square = Square(5);
+std::vector<Shape> shapes;
+    \end{lstlisting}
+
+    In the above example \ref{lst:erasure}, the Shape class is a base class that is used to
+    store objects of different types. The Circle and Square classes are derived from the Shape
+    class. The vector shapes is a vector of Shape objects that can hold objects of different types.\\
+
+    \textbf{Pimpl (Pointer to Implementation)}:
+    The Pimpl idiom is used to hide the implementation details of a class from the user of the
+    class. It is used to reduce the compile time dependencies and to hide the implementation
+    details of the class.\\ \\
+
+    The list of the mentioned idioms is not exhaustive. C++ offers a lot more idioms and best 
+    practices that can be used to write efficient and safe code.
+
+
+
+
+
+
+
+
+    % \subsubsection{C++ Limitations}
+    % C++ is a very powerful and influential language that has been used to implement some of the
+    % most complex and efficient software systems. However, it is also a very complex language
+
+    % TODO: describe the limitations of C++
+    % \begin{itemize}
+    %     \item Memory Management: no gc
+    %     \item Error Handling:
+    %     \item Compilation Time:
+    %     \item Complexity:
+    %     \item strong typing
+    %     \item inheritance only with pointers or references
+
+    % \end{itemize}
+
     \subsection{Project Architectural Design}
+    Having armed ourselves with various design principles and architectural patterns, we can now
+    tackle the task of designing the architecture of the project.
     \subsubsection{Project Modules}
+    Having identified the different requirements of the project, we can now divide the project into
+    different modules. Each module will be responsible for a specific domain of the project.
+
+    \begin{itemize}
+        \item file\_io module: Responsible for handling file input/output operations.
+        \item network\_io module: Responsible for handling network operations.
+        \item processing module: Responsible for implementing the data processing algorithms.
+        \item core module: Responsible for the basic data structures that will be shared between other modules.
+        \item python module: Responsible for exposing the library to Python.
+    \end{itemize}
+
+    Each module should be independent of other modules and communicates with them through exposed interfaces.
+    Furthermore, each module includes its own tests. This will help in isolating the tests
+    and make it easier to test the modules. In general this approach focuses on separation of
+    concerns and modularity.\\
+
     \subsubsection{Project Architecture}
-    \subsubsection{Class Diagram}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{Chapitre2/figures/aare.png}
+        \caption{Diagram of the Project Architecture}
+        \label{fig:arch}
+
+    \end{figure}
+
+    The project will follow the Clean Architecture. The project will be divided into different
+    layers where the inner layers do not depend on the outer layers. \\
+
+    Figure \ref{fig:arch} is an illustration of how the project is organized.
+    Boxes represent the modules that have been implemented by the project. Controllers and
+    Presenters are not implemented but in future iterations they can be added to communicate with a UI or
+    an API. The direction of the arrows represents the dependencies between the modules.\\
+
+    The core module is at the center of the architecture.
+    It is the most stable part of the software and least likely to change. core module will
+    contain data structure such as "\lstinline|Frame|" and "\lstinline|Cluster|" that will be used by higher level modules.
+    The core module will also contain the interfaces that will be used by the other modules.\\
+
+    One level above the core module we find the file\_io, network\_io and processing modules.
+    These modules contain the application-specific business rules and use cases.
+    These modules will also depend on the core module.\\
+
+    In the Interfaces and Adapters layer we can find the python module. This module will be written in C++
+    and it will contain the bindings to expose the libraries functionalities. The python module
+    will depend on all the modules below it. In case of future changes, this layer can contain
+    Presenters to present the data on a GUI or in another formats and also it can contain
+    controllers to handle requests from other servers or the Web.\\
+
+    Finally, the Frameworks and Drivers layer will contain the external components that the system
+    will use. Hardware, Databases, Python libraries etc all reside in this layer. These components
+    are subject to frequent unpredictable changes and should be isolated from the rest of the
+    system.\\
+
+
+    % \subsubsection{Class Diagram}
     % \begin{figure}[!ht]\centering
     % \includegraphics[scale=0.9]{stereotypes.jpg}
     % \caption{Les stéréotypes}
@@ -359,7 +519,13 @@ T add(T a) {
 
 
     \section*{Conclusion}
-    Faire ici une petite récapitulation du chapitre, ainsi qu'une introduction du chapitre suivant.
+    In this chapter we oversaw the requirement specification of the project and we have 
+    defined the broad lines of the project architecture. This architectural planning 
+    will guide the development of the project and will help in organizing the code. 
+    Although it costs time and effort to design the architecture of the project, it is 
+    a long term investment that will pay off in the future. The architecture will help
+    in maintaining the code, adding new features and fixing bugs. It will also help in
+    understanding the code and in onboarding new developers.\\
 
 
 
