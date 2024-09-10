@@ -1,0 +1,12 @@
+PWD /home/bb/pfe/pfe/Chapitre3
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/bb/pfe/pfe/Chapitre3/chapitre3.tex
+OUTPUT chapitre3.log
+INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/share/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/share/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/share/texmf-dist/tex/latex/base/omlcmr.fd
+OUTPUT chapitre3.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
