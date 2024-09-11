@@ -87,6 +87,7 @@
 \contentsline {section}{\numberline {2}Parallelization and Multi-threading}{57}{section.4.2}%
 \contentsline {subsection}{\numberline {2.1}C++ Parallelization}{57}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {2.2}Python Parallelization}{59}{subsection.4.2.2}%
-\contentsline {section}{\numberline {3}Performance Evaluation}{61}{section.4.3}%
-\contentsline {chapter}{Conclusion and Perspectives}{62}{chapter*.23}%
-\contentsline {chapter}{Appendix : Miscellaneous remarks}{65}{chapter*.24}%
+\contentsline {subsection}{\numberline {2.3}Performance Evaluation}{60}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Impact of the GIL}{61}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Comparison of Different Parallelization Techniques}{62}{subsubsection.4.2.3.2}%
+\contentsline {chapter}{Conclusion and Perspectives}{68}{chapter*.27}%

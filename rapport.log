@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.8.26)  10 SEP 2024 01:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.8.26)  11 SEP 2024 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -868,6 +868,21 @@ Package: Classes/fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \py=\skip97
 \pyy=\skip98
 \pxx=\skip99
+) (/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count460
+\sf@farskip=\skip100
+\sf@captopadj=\dimen317
+\sf@capskip=\skip101
+\sf@nearskip=\skip102
+\c@subfigure=\count461
+\c@subfigure@save=\count462
+\c@lofdepth=\count463
+\c@subtable=\count464
+\c@subtable@save=\count465
+\c@lotdepth=\count466
+\sf@top=\skip103
+\sf@bottom=\skip104
 ) (/usr/share/texmf-dist/tex/latex/minitoc/minitoc.sty
 Package: minitoc 2018/07/12 v62 Package minitoc
  (/usr/share/texmf-dist/tex/latex/minitoc/mtcmess.sty
@@ -876,8 +891,8 @@ Package: mtcmess 2006/03/14
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 62 ***.
 \tf@mtc=\write6
-\mtcindent=\skip100
-\mtcskipamount=\skip101
+\mtcindent=\skip105
+\mtcskipamount=\skip106
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
@@ -903,11 +918,11 @@ Package minitoc Info: I0031
 
 \openout6 = `rapport.mtc0'.
 
-\c@mtc=\count460
-\c@minitocdepth=\count461
-\c@ptc=\count462
-\c@parttocdepth=\count463
-\ptcindent=\skip102
+\c@mtc=\count467
+\c@minitocdepth=\count468
+\c@ptc=\count469
+\c@parttocdepth=\count470
+\ptcindent=\skip107
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4910.
@@ -915,22 +930,7 @@ Package minitoc Info: I0010
 File: english.mld 2006/01/13
 ) (/usr/share/texmf-dist/tex/latex/minitoc/english.mld
 File: english.mld 2006/01/13
-)) (/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count464
-\sf@farskip=\skip103
-\sf@captopadj=\dimen317
-\sf@capskip=\skip104
-\sf@nearskip=\skip105
-\c@subfigure=\count465
-\c@subfigure@save=\count466
-\c@lofdepth=\count467
-\c@subtable=\count468
-\c@subtable@save=\count469
-\c@lotdepth=\count470
-\sf@top=\skip106
-\sf@bottom=\skip107
-) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
+)) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count471
 \lst@gtempboxa=\box76
 \lst@token=\toks52
@@ -963,27 +963,27 @@ Package: courier 2020/03/25 PSNFSS-v9.3 (WaS)
 )
 \@quotelevel=\count479
 \@quotereset=\count480
- (./rapport.aux (./Remerciement/remerciement.aux) (./Resumes/resumeA.aux) (./Introduction/introduction.aux) (./Chapitre1/chapitre1.aux) (./Chapitre2/chapitre2.aux) (./Chapitre3/chapitre3.aux) (./Chapitre4/chapitre4.aux) (./Conclusion/conclusion.aux) (./Annexe1/annexe1.aux))
+ (./rapport.aux (./Remerciement/remerciement.aux) (./Resumes/resumeA.aux) (./Introduction/introduction.aux) (./Chapitre1/chapitre1.aux) (./Chapitre2/chapitre2.aux) (./Chapitre3/chapitre3.aux) (./Chapitre4/chapitre4.aux) (./Conclusion/conclusion.aux))
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count481
@@ -1016,40 +1016,40 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rapport.bbl' found.
  (./rapport.bbl)
-Package biblatex Info: Reference section=0 on input line 86.
-Package biblatex Info: Reference segment=0 on input line 86.
-Package hyperref Info: Link coloring ON on input line 86.
+Package biblatex Info: Reference section=0 on input line 90.
+Package biblatex Info: Reference segment=0 on input line 90.
+Package hyperref Info: Link coloring ON on input line 90.
  (./rapport.out) (./rapport.out)
 \@outlinefile=\write7
 \openout7 = `rapport.out'.
 
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 86.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 90.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 86.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 90.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 86.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 90.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 86.
+(Font)              <12> on input line 90.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 86.
+(Font)              <8> on input line 90.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 86.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
+(Font)              <6> on input line 90.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.39998pt on input line 86.
+Package xypdf Info: Line width: 0.39998pt on input line 90.
  (/usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip108
@@ -1085,10 +1085,10 @@ Package minitoc(hints) Info: I0046
 (minitoc(hints))             See the minitoc package documentation 
 (minitoc(hints))             for specific precautions.
 \c@lstlisting=\count493
-<insat.jpg, id=346, 2001.4775pt x 2001.4775pt>
+<insat.jpg, id=350, 2001.4775pt x 2001.4775pt>
 File: insat.jpg Graphic file (type jpg)
 <use insat.jpg>
-Package pdftex.def Info: insat.jpg  used on input line 118.
+Package pdftex.def Info: insat.jpg  used on input line 122.
 (pdftex.def)             Requested size: 100.07973pt x 100.07973pt.
  [0
 
@@ -1101,7 +1101,7 @@ Package pdftex.def Info: insat.jpg  used on input line 118.
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM rapport.toc on input line 152.
+(minitoc)             PREPARING MINITOCS FROM rapport.toc on input line 156.
 Package minitoc Info: I0033
 (minitoc)             Writing rapport.mtc1.
 \openout6 = `rapport.mtc1'.
@@ -1137,10 +1137,6 @@ Package minitoc Info: I0033
 Package minitoc Info: I0033
 (minitoc)             Writing rapport.mtc9.
 \openout6 = `rapport.mtc9'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing rapport.mtc10.
-\openout6 = `rapport.mtc10'.
 
  (./rapport.toc [2
 
@@ -1200,7 +1196,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 
 ]
-<Chapitre1/figures/psi.jpg, id=533, 853.5087pt x 569.0058pt>
+<Chapitre1/figures/psi.jpg, id=546, 853.5087pt x 569.0058pt>
 File: Chapitre1/figures/psi.jpg Graphic file (type jpg)
 <use Chapitre1/figures/psi.jpg>
 Package pdftex.def Info: Chapitre1/figures/psi.jpg  used on input line 52.
@@ -1209,13 +1205,13 @@ LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 74
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [4{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [5 <./Chapitre1/figures/psi.jpg>]
-<Chapitre1/figures/slsreceiver.png, id=558, 528.97626pt x 297.11pt>
+<Chapitre1/figures/slsreceiver.png, id=571, 528.97626pt x 297.11pt>
 File: Chapitre1/figures/slsreceiver.png Graphic file (type png)
 <use Chapitre1/figures/slsreceiver.png>
 Package pdftex.def Info: Chapitre1/figures/slsreceiver.png  used on input line 85.
 (pdftex.def)             Requested size: 423.18158pt x 237.68831pt.
  [6{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./Chapitre1/figures/slsreceiver.png>] [7] [8] [9] [10]
-<Chapitre1/figures/gantt.png, id=586, 2890.8pt x 1586.92876pt>
+<Chapitre1/figures/gantt.png, id=599, 2890.8pt x 1586.92876pt>
 File: Chapitre1/figures/gantt.png Graphic file (type png)
 <use Chapitre1/figures/gantt.png>
 Package pdftex.def Info: Chapitre1/figures/gantt.png  used on input line 217.
@@ -1237,7 +1233,7 @@ Chapter II.
 
 
 ] [14] [15] [16] [17] [18]
-<Chapitre2/figures/CleanArchitecture.jpg, id=659, 774.895pt x 569.12625pt>
+<Chapitre2/figures/CleanArchitecture.jpg, id=672, 774.895pt x 569.12625pt>
 File: Chapitre2/figures/CleanArchitecture.jpg Graphic file (type jpg)
 <use Chapitre2/figures/CleanArchitecture.jpg>
 Package pdftex.def Info: Chapitre2/figures/CleanArchitecture.jpg  used on input line 206.
@@ -1274,12 +1270,12 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 414--414
  []
 
 [25]
-<Chapitre2/figures/aare.png, id=728, 240.9pt x 240.9pt>
+<Chapitre2/figures/aare.png, id=741, 240.9pt x 240.9pt>
 File: Chapitre2/figures/aare.png Graphic file (type png)
 <use Chapitre2/figures/aare.png>
 Package pdftex.def Info: Chapitre2/figures/aare.png  used on input line 478.
 (pdftex.def)             Requested size: 483.69684pt x 483.7433pt.
-<Chapitre2/figures/folders.png, id=730, 1117.17375pt x 632.3625pt>
+<Chapitre2/figures/folders.png, id=743, 1117.17375pt x 632.3625pt>
 File: Chapitre2/figures/folders.png Graphic file (type png)
 <use Chapitre2/figures/folders.png>
 Package pdftex.def Info: Chapitre2/figures/folders.png  used on input line 524.
@@ -1301,7 +1297,7 @@ Chapter III.
 
 
 ]
-<Chapitre3/figures/core_class_simplified.png, id=785, 1638.12pt x 951.555pt>
+<Chapitre3/figures/core_class_simplified.png, id=798, 1638.12pt x 951.555pt>
 File: Chapitre3/figures/core_class_simplified.png Graphic file (type png)
 <use Chapitre3/figures/core_class_simplified.png>
 Package pdftex.def Info: Chapitre3/figures/core_class_simplified.png  used on input line 41.
@@ -1322,7 +1318,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 154--154
 [][][][][][][] 
  []
 
-<Chapitre3/figures/file_io_class.png, id=826, 1217.54875pt x 550.055pt>
+<Chapitre3/figures/file_io_class.png, id=839, 1217.54875pt x 550.055pt>
 File: Chapitre3/figures/file_io_class.png Graphic file (type png)
 <use Chapitre3/figures/file_io_class.png>
 Package pdftex.def Info: Chapitre3/figures/file_io_class.png  used on input line 187.
@@ -1338,7 +1334,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 286--286
  []
 
 [40] [41]
-<Chapitre3/figures/network_io_class.png, id=893, 1364.09625pt x 505.89pt>
+<Chapitre3/figures/network_io_class.png, id=906, 1364.09625pt x 505.89pt>
 File: Chapitre3/figures/network_io_class.png Graphic file (type png)
 <use Chapitre3/figures/network_io_class.png>
 Package pdftex.def Info: Chapitre3/figures/network_io_class.png  used on input line 338.
@@ -1349,12 +1345,12 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 374--374
  []
 
 [43]
-<Chapitre3/figures/zmqmulti.png, id=916, 583.17876pt x 600.2425pt>
+<Chapitre3/figures/zmqmulti.png, id=929, 583.17876pt x 600.2425pt>
 File: Chapitre3/figures/zmqmulti.png Graphic file (type png)
 <use Chapitre3/figures/zmqmulti.png>
 Package pdftex.def Info: Chapitre3/figures/zmqmulti.png  used on input line 400.
 (pdftex.def)             Requested size: 483.69684pt x 497.86226pt.
-<Chapitre3/figures/task_distribution.png, id=919, 532.99126pt x 305.14pt>
+<Chapitre3/figures/task_distribution.png, id=932, 532.99126pt x 305.14pt>
 File: Chapitre3/figures/task_distribution.png Graphic file (type png)
 <use Chapitre3/figures/task_distribution.png>
 Package pdftex.def Info: Chapitre3/figures/task_distribution.png  used on input line 441.
@@ -1375,7 +1371,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 500--500
  []
 
 [47]
-<Chapitre3/figures/processing_class.png, id=987, 449.68pt x 486.81876pt>
+<Chapitre3/figures/processing_class.png, id=1000, 449.68pt x 486.81876pt>
 File: Chapitre3/figures/processing_class.png Graphic file (type png)
 <use Chapitre3/figures/processing_class.png>
 Package pdftex.def Info: Chapitre3/figures/processing_class.png  used on input line 527.
@@ -1424,42 +1420,69 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 138--138
  []
 
 [57] [58]
-<Chapitre4/figures/gil.png, id=1151, 722.7pt x 256.96pt>
+<Chapitre4/figures/gil.png, id=1164, 722.7pt x 256.96pt>
 File: Chapitre4/figures/gil.png Graphic file (type png)
 <use Chapitre4/figures/gil.png>
 Package pdftex.def Info: Chapitre4/figures/gil.png  used on input line 204.
 (pdftex.def)             Requested size: 483.69684pt x 171.98193pt.
  [59 <./Chapitre4/figures/gil.png>]
-<Chapitre4/figures/gil_c.png, id=1157, 2418.8769pt x 723.4227pt>
+<Chapitre4/figures/gil_c.png, id=1170, 2418.8769pt x 723.4227pt>
 File: Chapitre4/figures/gil_c.png Graphic file (type png)
 <use Chapitre4/figures/gil_c.png>
 Package pdftex.def Info: Chapitre4/figures/gil_c.png  used on input line 246.
 (pdftex.def)             Requested size: 483.69684pt x 144.6599pt.
-) [60] [61 <./Chapitre4/figures/gil_c.png>]
+ [60] [61 <./Chapitre4/figures/gil_c.png>]
+<Chapitre4/figures/gil1.png, id=1183, 462.528pt x 346.896pt>
+File: Chapitre4/figures/gil1.png Graphic file (type png)
+<use Chapitre4/figures/gil1.png>
+Package pdftex.def Info: Chapitre4/figures/gil1.png  used on input line 312.
+(pdftex.def)             Requested size: 386.95894pt x 290.23143pt.
+File: Chapitre4/figures/gil1.png Graphic file (type png)
+<use Chapitre4/figures/gil1.png>
+Package pdftex.def Info: Chapitre4/figures/gil1.png  used on input line 314.
+(pdftex.def)             Requested size: 386.95894pt x 290.23143pt.
+
+
+LaTeX Warning: Float too large for page by 19.50224pt on input line 319.
+
+[62] [63 <./Chapitre4/figures/gil1.png>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 348--348
+[][][][][][][] 
+ []
+
+[64]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 371--371
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (25.17392pt too wide) in paragraph at lines 394--407
+ [][] 
+ []
+
+<Chapitre4/figures/comp.png, id=1220, 462.528pt x 346.896pt>
+File: Chapitre4/figures/comp.png Graphic file (type png)
+<use Chapitre4/figures/comp.png>
+Package pdftex.def Info: Chapitre4/figures/comp.png  used on input line 412.
+(pdftex.def)             Requested size: 483.69684pt x 362.79062pt.
+[65] [66 <./Chapitre4/figures/comp.png>]) [67]
 \openout2 = `Conclusion/conclusion.aux'.
 
- (./Conclusion/conclusion.tex) [62
+ (./Conclusion/conclusion.tex) [68
 
 
 
 
 
-] [63
+] [69
 
 
 
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}]
-Overfull \hbox (60.85857pt too wide) in paragraph at lines 236--236
+Overfull \hbox (60.85857pt too wide) in paragraph at lines 240--240
 []\OT1/lmr/m/n/12 Jeffrey Palermo. ``The Onion Ar-chi-tec-ture''. In: (2008). \OT1/lmr/m/sc/12 url\OT1/lmr/m/n/12 : [][]$\OT1/pcr/m/n/12 https : / / jeffreypalermo .
  []
 
-[64]
-\openout2 = `Annexe1/annexe1.aux'.
-
- (./Annexe1/annexe1.tex) [65
-
-
-]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the rapport.maf file.
@@ -1471,38 +1494,34 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
 
-
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the rapport.log file.
 
-[66
-
-
-] (./rapport.aux (./Remerciement/remerciement.aux) (./Resumes/resumeA.aux) (./Introduction/introduction.aux) (./Chapitre1/chapitre1.aux) (./Chapitre2/chapitre2.aux) (./Chapitre3/chapitre3.aux) (./Chapitre4/chapitre4.aux) (./Conclusion/conclusion.aux) (./Annexe1/annexe1.aux))
+[70] (./rapport.aux (./Remerciement/remerciement.aux) (./Resumes/resumeA.aux) (./Introduction/introduction.aux) (./Chapitre1/chapitre1.aux) (./Chapitre2/chapitre2.aux) (./Chapitre3/chapitre3.aux) (./Chapitre4/chapitre4.aux) (./Conclusion/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 7843DE82809E0867D5EAD03BCC5182E8;16763.
+(rerunfilecheck)             Checksum: C03E424D0AE2DF69DE7F184EABEBB28A;17130.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29418 strings out of 476076
- 489319 string characters out of 5793775
- 2081187 words of memory out of 5000000
- 50536 multiletter control sequences out of 15000+600000
+ 29501 strings out of 476076
+ 490482 string characters out of 5793775
+ 2084187 words of memory out of 5000000
+ 50579 multiletter control sequences out of 15000+600000
  624486 words of font info for 103 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  81i,12n,95p,3329b,2158s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on rapport.pdf (75 pages, 4362768 bytes).
+Output written on rapport.pdf (79 pages, 4429678 bytes).
 PDF statistics:
- 1368 PDF objects out of 1440 (max. 8388607)
- 1226 compressed objects within 13 object streams
- 425 named destinations out of 1000 (max. 500000)
- 764 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1460 PDF objects out of 1728 (max. 8388607)
+ 1309 compressed objects within 14 object streams
+ 474 named destinations out of 1000 (max. 500000)
+ 782 words of extra memory for PDF output out of 10000 (max. 10000000)
 

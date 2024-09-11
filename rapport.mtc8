@@ -7,4 +7,6 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Parallelization and Multi-threading}{\reset@font\mtcSfont 57}{section.4.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}C++ Parallelization}{\reset@font\mtcSSfont 57}{subsection.4.2.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2}Python Parallelization}{\reset@font\mtcSSfont 59}{subsection.4.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Performance Evaluation}{\reset@font\mtcSfont 61}{section.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3}Performance Evaluation}{\reset@font\mtcSSfont 60}{subsection.4.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1}Impact of the GIL}{\reset@font\mtcSSSfont 61}{subsubsection.4.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.2}Comparison of Different Parallelization Techniques}{\reset@font\mtcSSSfont 62}{subsubsection.4.2.3.2}}

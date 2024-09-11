@@ -26,7 +26,9 @@
 \contentsline {xchapter}{Library Applications and Evaluation}{54}{chapter.4}%
 \contentsline {figure}{\numberline {IV.1}{\ignorespaces Illustration of thread concurency in Python. The GIL prevents multiple threads from executing Python bytecodes in parallel.}}{59}{figure.caption.20}%
 \contentsline {figure}{\numberline {IV.2}{\ignorespaces Illustration of running multithreaded Python code with C++ bindings. Red arrows represent Python code, blue arrows represent C++ code. letter R represents releasing the GIL, letter A represents acquiring the GIL.}}{61}{figure.caption.21}%
+\contentsline {figure}{\numberline {IV.3}{\ignorespaces Plot showing the impact of releasing the GIL in the python bindings}}{63}{figure.caption.23}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Run Time}}}{63}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering CPU Usage}}}{63}{subfigure.3.2}%
+\contentsline {figure}{\numberline {IV.4}{\ignorespaces Comparison of different parallelization techniques. Time taken to run the benchmark in seconds.}}{66}{figure.caption.25}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion and Perspectives}{62}{chapter*.23}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Appendix : Miscellaneous remarks}{65}{chapter*.24}%
+\contentsline {xchapter}{Conclusion and Perspectives}{68}{chapter*.27}%

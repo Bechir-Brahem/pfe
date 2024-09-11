@@ -12,7 +12,7 @@
 \contentsline {xpart}{Chapter 4}{53}{part.4}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Library Applications and Evaluation}{54}{chapter.4}%
+\contentsline {table}{\numberline {IV.1}{\ignorespaces Impact of the GIL on the performance of the library. Comparing the time taken to run a task and the CPU usage on a 4-core machine.}}{62}{table.caption.22}%
+\contentsline {table}{\numberline {IV.2}{\ignorespaces Comparison of different parallelization techniques. Time taken to run the benchmark in seconds. MT C++: Multi-threaded C++, MT Python: Multi-threaded Python, MT C++ PCQ: Multi-threaded C++ with Producer and Consumer Queues, MP C++ ZMQ: Multi-process C++ with ZeroMQ.}}{65}{table.caption.24}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion and Perspectives}{62}{chapter*.23}%
-\addvspace {10\p@ }
-\contentsline {xchapter}{Appendix : Miscellaneous remarks}{65}{chapter*.24}%
+\contentsline {xchapter}{Conclusion and Perspectives}{68}{chapter*.27}%

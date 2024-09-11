@@ -22,11 +22,27 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {IV.1}{\ignorespaces Illustration of thread concurency in Python. The GIL prevents multiple threads from executing Python bytecodes in parallel.}}{59}{figure.caption.20}\protected@file@percent }
 \newlabel{fig:gil}{{IV.1}{59}{Illustration of thread concurency in Python. The GIL prevents multiple threads from executing Python bytecodes in parallel}{figure.caption.20}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Python Parallelization}{59}{subsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Performance Evaluation}{60}{subsection.4.2.3}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {IV.2}{\ignorespaces Illustration of running multithreaded Python code with C++ bindings. Red arrows represent Python code, blue arrows represent C++ code. letter R represents releasing the GIL, letter A represents acquiring the GIL.}}{61}{figure.caption.21}\protected@file@percent }
 \newlabel{fig:python_parallelization}{{IV.2}{61}{Illustration of running multithreaded Python code with C++ bindings. Red arrows represent Python code, blue arrows represent C++ code. letter R represents releasing the GIL, letter A represents acquiring the GIL}{figure.caption.21}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Performance Evaluation}{61}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Impact of the GIL}{61}{subsubsection.4.2.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {IV.1}{\ignorespaces Impact of the GIL on the performance of the library. Comparing the time taken to run a task and the CPU usage on a 4-core machine.}}{62}{table.caption.22}\protected@file@percent }
+\newlabel{tab:gil_impact}{{IV.1}{62}{Impact of the GIL on the performance of the library. Comparing the time taken to run a task and the CPU usage on a 4-core machine}{table.caption.22}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}Comparison of Different Parallelization Techniques}{62}{subsubsection.4.2.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {IV.3}{\ignorespaces Plot showing the impact of releasing the GIL in the python bindings}}{63}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:gil_impact}{{IV.3}{63}{Plot showing the impact of releasing the GIL in the python bindings}{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Run Time}}}{63}{subfigure.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering CPU Usage}}}{63}{subfigure.3.2}\protected@file@percent }
+\newlabel{lst:multi_threaded_cpp}{{IV.4}{64}{Multi-threaded C++ example}{lstlisting.4.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {IV.4}{\ignorespaces Multi-threaded C++ example}}{64}{lstlisting.4.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {IV.2}{\ignorespaces Comparison of different parallelization techniques. Time taken to run the benchmark in seconds. MT C++: Multi-threaded C++, MT Python: Multi-threaded Python, MT C++ PCQ: Multi-threaded C++ with Producer and Consumer Queues, MP C++ ZMQ: Multi-process C++ with ZeroMQ.}}{65}{table.caption.24}\protected@file@percent }
+\newlabel{tab:parallelization_comparison}{{IV.2}{65}{Comparison of different parallelization techniques. Time taken to run the benchmark in seconds. MT C++: Multi-threaded C++, MT Python: Multi-threaded Python, MT C++ PCQ: Multi-threaded C++ with Producer and Consumer Queues, MP C++ ZMQ: Multi-process C++ with ZeroMQ}{table.caption.24}{}}
+\newlabel{lst:multi_threaded_python}{{IV.5}{65}{Multi-threaded Python example}{lstlisting.4.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {IV.5}{\ignorespaces Multi-threaded Python example}}{65}{lstlisting.4.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {IV.4}{\ignorespaces Comparison of different parallelization techniques. Time taken to run the benchmark in seconds.}}{66}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:parallelization_comparison}{{IV.4}{66}{Comparison of different parallelization techniques. Time taken to run the benchmark in seconds}{figure.caption.25}{}}
 \@setckpt{Chapitre4/chapitre4}{
-\setcounter{page}{62}
+\setcounter{page}{68}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -36,13 +52,13 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{4}
 \setcounter{chapter}{4}
-\setcounter{section}{3}
-\setcounter{subsection}{0}
-\setcounter{subsubsection}{0}
+\setcounter{section}{2}
+\setcounter{subsection}{3}
+\setcounter{subsubsection}{2}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{2}
-\setcounter{table}{0}
+\setcounter{figure}{4}
+\setcounter{table}{2}
 \setcounter{float@type}{8}
 \setcounter{tabx@nest}{0}
 \setcounter{listtotal}{0}
@@ -158,9 +174,9 @@
 \setcounter{smartand}{1}
 \setcounter{bbx:relatedcount}{0}
 \setcounter{bbx:relatedtotal}{0}
-\setcounter{section@level}{1}
+\setcounter{section@level}{3}
 \setcounter{Item}{0}
-\setcounter{bookmark@seq@number}{84}
+\setcounter{bookmark@seq@number}{86}
 \setcounter{parentequation}{0}
 \setcounter{DefaultLines}{2}
 \setcounter{DefaultDepth}{0}
@@ -170,23 +186,23 @@
 \setcounter{SC@C}{0}
 \setcounter{caption@flags}{2}
 \setcounter{continuedfloat}{0}
-\setcounter{mtc}{8}
-\setcounter{minitocdepth}{2}
-\setcounter{ptc}{4}
-\setcounter{parttocdepth}{2}
 \setcounter{KVtest}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure@save}{0}
+\setcounter{subfigure@save}{2}
 \setcounter{lofdepth}{1}
 \setcounter{subtable}{0}
 \setcounter{subtable@save}{0}
 \setcounter{lotdepth}{1}
-\setcounter{lstnumber}{22}
+\setcounter{mtc}{8}
+\setcounter{minitocdepth}{2}
+\setcounter{ptc}{4}
+\setcounter{parttocdepth}{2}
+\setcounter{lstnumber}{17}
 \setcounter{minilofdepth}{2}
 \setcounter{minilotdepth}{2}
 \setcounter{partlofdepth}{2}
 \setcounter{partlotdepth}{2}
 \setcounter{sectlofdepth}{2}
 \setcounter{sectlotdepth}{2}
-\setcounter{lstlisting}{3}
+\setcounter{lstlisting}{5}
 }
