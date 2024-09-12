@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.8.26)  11 SEP 2024 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.8.26)  12 SEP 2024 02:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1015,7 +1015,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rapport.bbl' found.
- (./rapport.bbl)
+ (./rapport.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                jungfraujoch
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 90.
 Package biblatex Info: Reference segment=0 on input line 90.
 Package hyperref Info: Link coloring ON on input line 90.
@@ -1195,28 +1203,40 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3
 
 
-]
-<Chapitre1/figures/psi.jpg, id=546, 853.5087pt x 569.0058pt>
+] [4{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+<Chapitre1/figures/psi.jpg, id=559, 853.5087pt x 569.0058pt>
 File: Chapitre1/figures/psi.jpg Graphic file (type jpg)
 <use Chapitre1/figures/psi.jpg>
-Package pdftex.def Info: Chapitre1/figures/psi.jpg  used on input line 52.
+Package pdftex.def Info: Chapitre1/figures/psi.jpg  used on input line 81.
 (pdftex.def)             Requested size: 483.69684pt x 322.46129pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 74.
- (/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+ [5 <./Chapitre1/figures/psi.jpg>]
+
+LaTeX Warning: Citation 'jungfraujoch' on page 6 undefined on input line 108.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 113.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [4{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [5 <./Chapitre1/figures/psi.jpg>]
+)
 <Chapitre1/figures/slsreceiver.png, id=571, 528.97626pt x 297.11pt>
 File: Chapitre1/figures/slsreceiver.png Graphic file (type png)
 <use Chapitre1/figures/slsreceiver.png>
-Package pdftex.def Info: Chapitre1/figures/slsreceiver.png  used on input line 85.
+Package pdftex.def Info: Chapitre1/figures/slsreceiver.png  used on input line 124.
 (pdftex.def)             Requested size: 423.18158pt x 237.68831pt.
- [6{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <./Chapitre1/figures/slsreceiver.png>] [7] [8] [9] [10]
-<Chapitre1/figures/gantt.png, id=599, 2890.8pt x 1586.92876pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] [7 <./Chapitre1/figures/slsreceiver.png>] [8] [9] [10]
+<Chapitre1/figures/gantt.png, id=604, 2890.8pt x 1586.92876pt>
 File: Chapitre1/figures/gantt.png Graphic file (type png)
 <use Chapitre1/figures/gantt.png>
-Package pdftex.def Info: Chapitre1/figures/gantt.png  used on input line 217.
+Package pdftex.def Info: Chapitre1/figures/gantt.png  used on input line 266.
 (pdftex.def)             Requested size: 483.69684pt x 265.51256pt.
-) [11 <./Chapitre1/figures/gantt.png>] [12
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [11] [12 <./Chapitre1/figures/gantt.png>] [13
 
 
 
@@ -1229,58 +1249,60 @@ Chapter II.
 
 \openout6 = `rapport.mtc'.
 
-(./rapport.mtc6) [13
+(./rapport.mtc6) [14
 
 
-] [14] [15] [16] [17] [18]
-<Chapitre2/figures/CleanArchitecture.jpg, id=672, 774.895pt x 569.12625pt>
+] [15] [16] [17] [18] [19]
+<Chapitre2/figures/CleanArchitecture.jpg, id=681, 774.895pt x 569.12625pt>
 File: Chapitre2/figures/CleanArchitecture.jpg Graphic file (type jpg)
 <use Chapitre2/figures/CleanArchitecture.jpg>
-Package pdftex.def Info: Chapitre2/figures/CleanArchitecture.jpg  used on input line 206.
+Package pdftex.def Info: Chapitre2/figures/CleanArchitecture.jpg  used on input line 207.
 (pdftex.def)             Requested size: 387.44655pt x 284.56242pt.
- [19 <./Chapitre2/figures/CleanArchitecture.jpg>] [20] [21] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+ [20 <./Chapitre2/figures/CleanArchitecture.jpg>] [21] [22] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 ) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 ) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 318.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 319.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 318.
+(Font)              <10> on input line 319.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 318.
+(Font)              <7> on input line 319.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 318.
+(Font)              <5> on input line 319.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 318--318
+Overfull \hbox (6.0pt too wide) in paragraph at lines 319--319
 [][][][][][][] 
  []
 
-[22] [23]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 373--373
+[23]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 374--374
 [][][][][][][] 
  []
 
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 383.
 [24]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 414--414
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 384.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 415--415
 [][][][][][][] 
  []
 
 [25]
-<Chapitre2/figures/aare.png, id=741, 240.9pt x 240.9pt>
+<Chapitre2/figures/aare.png, id=746, 240.9pt x 240.9pt>
 File: Chapitre2/figures/aare.png Graphic file (type png)
 <use Chapitre2/figures/aare.png>
-Package pdftex.def Info: Chapitre2/figures/aare.png  used on input line 478.
+Package pdftex.def Info: Chapitre2/figures/aare.png  used on input line 479.
 (pdftex.def)             Requested size: 483.69684pt x 483.7433pt.
-<Chapitre2/figures/folders.png, id=743, 1117.17375pt x 632.3625pt>
+ [26] [27 <./Chapitre2/figures/aare.png>]
+<Chapitre2/figures/folders.png, id=757, 1117.17375pt x 632.3625pt>
 File: Chapitre2/figures/folders.png Graphic file (type png)
 <use Chapitre2/figures/folders.png>
-Package pdftex.def Info: Chapitre2/figures/folders.png  used on input line 524.
+Package pdftex.def Info: Chapitre2/figures/folders.png  used on input line 525.
 (pdftex.def)             Requested size: 386.95894pt x 219.0337pt.
- [26] [27 <./Chapitre2/figures/aare.png>] [28 <./Chapitre2/figures/folders.png (PNG copy)>] [29]) [30] [31
+ [28] [29]) [30] [31 <./Chapitre2/figures/folders.png (PNG copy)>] [32
 
 
 
@@ -1293,11 +1315,11 @@ Chapter III.
 
 \openout6 = `rapport.mtc'.
 
-(./rapport.mtc7) [32
+(./rapport.mtc7) [33
 
 
 ]
-<Chapitre3/figures/core_class_simplified.png, id=798, 1638.12pt x 951.555pt>
+<Chapitre3/figures/core_class_simplified.png, id=807, 1638.12pt x 951.555pt>
 File: Chapitre3/figures/core_class_simplified.png Graphic file (type png)
 <use Chapitre3/figures/core_class_simplified.png>
 Package pdftex.def Info: Chapitre3/figures/core_class_simplified.png  used on input line 41.
@@ -1308,59 +1330,59 @@ File: omllmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
 (Font)              Font shape `OML/lmm/m/it' tried instead on input line 51.
- [33 <./Chapitre3/figures/core_class_simplified.png (PNG copy)>] [34{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}] [35]
+ [34 <./Chapitre3/figures/core_class_simplified.png (PNG copy)>] [35{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}] [36]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 124--124
 [][][][][][][] 
  []
 
-[36]
+[37]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 154--154
 [][][][][][][] 
  []
 
-<Chapitre3/figures/file_io_class.png, id=839, 1217.54875pt x 550.055pt>
+<Chapitre3/figures/file_io_class.png, id=848, 1217.54875pt x 550.055pt>
 File: Chapitre3/figures/file_io_class.png Graphic file (type png)
 <use Chapitre3/figures/file_io_class.png>
 Package pdftex.def Info: Chapitre3/figures/file_io_class.png  used on input line 187.
 (pdftex.def)             Requested size: 483.69684pt x 218.51572pt.
-[37] [38 <./Chapitre3/figures/file_io_class.png>]
+[38] [39 <./Chapitre3/figures/file_io_class.png>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 231--231
 [][][][][][][] 
  []
 
-[39]
+[40]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 286--286
 [][][][][][][] 
  []
 
-[40] [41]
-<Chapitre3/figures/network_io_class.png, id=906, 1364.09625pt x 505.89pt>
+[41] [42]
+<Chapitre3/figures/network_io_class.png, id=915, 1364.09625pt x 505.89pt>
 File: Chapitre3/figures/network_io_class.png Graphic file (type png)
 <use Chapitre3/figures/network_io_class.png>
 Package pdftex.def Info: Chapitre3/figures/network_io_class.png  used on input line 338.
 (pdftex.def)             Requested size: 483.69684pt x 179.38763pt.
- [42 <./Chapitre3/figures/network_io_class.png (PNG copy)>]
+ [43 <./Chapitre3/figures/network_io_class.png (PNG copy)>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 374--374
 [][][][][][][] 
  []
 
-[43]
-<Chapitre3/figures/zmqmulti.png, id=929, 583.17876pt x 600.2425pt>
+[44]
+<Chapitre3/figures/zmqmulti.png, id=939, 702.4644pt x 722.7pt>
 File: Chapitre3/figures/zmqmulti.png Graphic file (type png)
 <use Chapitre3/figures/zmqmulti.png>
 Package pdftex.def Info: Chapitre3/figures/zmqmulti.png  used on input line 400.
-(pdftex.def)             Requested size: 483.69684pt x 497.86226pt.
-<Chapitre3/figures/task_distribution.png, id=932, 532.99126pt x 305.14pt>
+(pdftex.def)             Requested size: 483.69684pt x 497.63797pt.
+<Chapitre3/figures/task_distribution.png, id=942, 532.99126pt x 305.14pt>
 File: Chapitre3/figures/task_distribution.png Graphic file (type png)
 <use Chapitre3/figures/task_distribution.png>
 Package pdftex.def Info: Chapitre3/figures/task_distribution.png  used on input line 441.
 (pdftex.def)             Requested size: 483.69684pt x 276.92819pt.
- [44] [45 <./Chapitre3/figures/zmqmulti.png>]
+ [45] [46 <./Chapitre3/figures/zmqmulti.png>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 463--463
 [][][][][][][] 
  []
 
-[46 <./Chapitre3/figures/task_distribution.png>]
+[47 <./Chapitre3/figures/task_distribution.png>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 483--483
 [][][][][][][] 
  []
@@ -1370,25 +1392,25 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 500--500
 [][][][][][][] 
  []
 
-[47]
-<Chapitre3/figures/processing_class.png, id=1000, 449.68pt x 486.81876pt>
+[48]
+<Chapitre3/figures/processing_class.png, id=1009, 449.68pt x 486.81876pt>
 File: Chapitre3/figures/processing_class.png Graphic file (type png)
 <use Chapitre3/figures/processing_class.png>
 Package pdftex.def Info: Chapitre3/figures/processing_class.png  used on input line 527.
 (pdftex.def)             Requested size: 386.95894pt x 418.93825pt.
- [48{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] [49 <./Chapitre3/figures/processing_class.png (PNG copy)>] [50]
+ [49{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] [50 <./Chapitre3/figures/processing_class.png (PNG copy)>] [51]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 604--604
 [][][][][][][] 
  []
 
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [51]
+) [52]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 635--635
 [][][][][][][] 
  []
 
-) [52] [53
+) [53] [54
 
 
 
@@ -1401,7 +1423,7 @@ Chapter IV.
 
 \openout6 = `rapport.mtc'.
 
-(./rapport.mtc8) [54
+(./rapport.mtc8) [55
 
 
 ]
@@ -1414,25 +1436,25 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 62--62
 [][][][][][][] 
  []
 
-[55] [56]
+[56] [57]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 138--138
 [][][][][][][] 
  []
 
-[57] [58]
-<Chapitre4/figures/gil.png, id=1164, 722.7pt x 256.96pt>
+[58] [59]
+<Chapitre4/figures/gil.png, id=1173, 722.7pt x 256.96pt>
 File: Chapitre4/figures/gil.png Graphic file (type png)
 <use Chapitre4/figures/gil.png>
 Package pdftex.def Info: Chapitre4/figures/gil.png  used on input line 204.
 (pdftex.def)             Requested size: 483.69684pt x 171.98193pt.
- [59 <./Chapitre4/figures/gil.png>]
-<Chapitre4/figures/gil_c.png, id=1170, 2418.8769pt x 723.4227pt>
+ [60 <./Chapitre4/figures/gil.png>]
+<Chapitre4/figures/gil_c.png, id=1179, 2418.8769pt x 723.4227pt>
 File: Chapitre4/figures/gil_c.png Graphic file (type png)
 <use Chapitre4/figures/gil_c.png>
 Package pdftex.def Info: Chapitre4/figures/gil_c.png  used on input line 246.
 (pdftex.def)             Requested size: 483.69684pt x 144.6599pt.
- [60] [61 <./Chapitre4/figures/gil_c.png>]
-<Chapitre4/figures/gil1.png, id=1183, 462.528pt x 346.896pt>
+ [61] [62 <./Chapitre4/figures/gil_c.png>]
+<Chapitre4/figures/gil1.png, id=1192, 462.528pt x 346.896pt>
 File: Chapitre4/figures/gil1.png Graphic file (type png)
 <use Chapitre4/figures/gil1.png>
 Package pdftex.def Info: Chapitre4/figures/gil1.png  used on input line 312.
@@ -1445,12 +1467,12 @@ Package pdftex.def Info: Chapitre4/figures/gil1.png  used on input line 314.
 
 LaTeX Warning: Float too large for page by 19.50224pt on input line 319.
 
-[62] [63 <./Chapitre4/figures/gil1.png>]
+[63] [64 <./Chapitre4/figures/gil1.png>]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 348--348
 [][][][][][][] 
  []
 
-[64]
+[65]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 371--371
 [][][][][][][] 
  []
@@ -1460,21 +1482,21 @@ Overfull \hbox (25.17392pt too wide) in paragraph at lines 394--407
  [][] 
  []
 
-<Chapitre4/figures/comp.png, id=1220, 462.528pt x 346.896pt>
+<Chapitre4/figures/comp.png, id=1229, 462.528pt x 346.896pt>
 File: Chapitre4/figures/comp.png Graphic file (type png)
 <use Chapitre4/figures/comp.png>
 Package pdftex.def Info: Chapitre4/figures/comp.png  used on input line 412.
 (pdftex.def)             Requested size: 483.69684pt x 362.79062pt.
-[65] [66 <./Chapitre4/figures/comp.png>]) [67]
+[66] [67 <./Chapitre4/figures/comp.png>]) [68]
 \openout2 = `Conclusion/conclusion.aux'.
 
- (./Conclusion/conclusion.tex) [68
+ (./Conclusion/conclusion.tex [69
 
 
 
 
 
-] [69
+] [70]) [71] [72
 
 
 
@@ -1498,7 +1520,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the rapport.log file.
 
-[70] (./rapport.aux (./Remerciement/remerciement.aux) (./Resumes/resumeA.aux) (./Introduction/introduction.aux) (./Chapitre1/chapitre1.aux) (./Chapitre2/chapitre2.aux) (./Chapitre3/chapitre3.aux) (./Chapitre4/chapitre4.aux) (./Conclusion/conclusion.aux))
+[73] (./rapport.aux (./Remerciement/remerciement.aux) (./Resumes/resumeA.aux) (./Introduction/introduction.aux) (./Chapitre1/chapitre1.aux) (./Chapitre2/chapitre2.aux) (./Chapitre3/chapitre3.aux) (./Chapitre4/chapitre4.aux) (./Conclusion/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1510,18 +1532,18 @@ Package logreq Info: Writing requests to 'rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29501 strings out of 476076
- 490482 string characters out of 5793775
+ 29520 strings out of 476076
+ 490989 string characters out of 5793775
  2084187 words of memory out of 5000000
- 50579 multiletter control sequences out of 15000+600000
+ 50589 multiletter control sequences out of 15000+600000
  624486 words of font info for 103 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  81i,12n,95p,3329b,2158s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on rapport.pdf (79 pages, 4429678 bytes).
+Output written on rapport.pdf (82 pages, 4465291 bytes).
 PDF statistics:
- 1460 PDF objects out of 1728 (max. 8388607)
- 1309 compressed objects within 14 object streams
- 474 named destinations out of 1000 (max. 500000)
+ 1486 PDF objects out of 1728 (max. 8388607)
+ 1332 compressed objects within 14 object streams
+ 483 named destinations out of 1000 (max. 500000)
  782 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -18,9 +18,9 @@
     %==============================================================================
 
     \section*{Introduction}
-    In this first chapter, we introduce the Paul Scherrer institut and its detectors group.
-    We explain the need for our project and the problems it aims to solve. Furthermore,
-    we will go through the goals of the project and provide a high-level timeline
+    In this first chapter, The Paul Scherrer institute and its detectors group are introduced.
+    the need for our project and the problems it aims to solve will be explained. Furthermore,
+    I will go through the goals of the project and provide a high-level timeline
     capturing its progression.
 
     \section{Presentation of The Host Company}
@@ -38,20 +38,49 @@
         \item Center for Accelerator Science and Engineering.
     \end{itemize}
 
-    In addition the Paul Scherrer Institute is famous for its synchotron: the Swiss Light Source (SLS).
-    A synchotron is a charged particle accelerator that accelerates electrons to nearly the speed of light. The electrons are then
+    The Paul Scherrer Institute operates several large scale research facilities including two
+    X-ray light sources: the Swiss Light Source (SLS) and SwissFEL (Swiss Free Electron Laser).\\
+
+
+    SwissFEL is a free electron laser
+    that provides ultra-short and high-intensity x-ray pulses. With their unrivalled brightness
+    and short pulse duration, Free Electron Lasers (FEL) will support progress
+    towards the development of faster and smaller magnetic storage devices,
+    a better understanding of catalytic materials for chemistry, bring along dramatically
+    improved imaging techniques for bio-molecules in drug discovery and provide new
+    insights into poorly understood materials that are technologically appealing. \cite{whySwissFEL}\\
+
+
+    The SLS synchotron is a charged particle accelerator that accelerates electrons
+    to nearly the speed of light. The electrons are then
     forced to travel in a circular path, and emit synchrotron radiation in the form of x-rays.
-    Scientists use the x-rays to study the properties of materials, and to perform experiments in a wide range of fields.
-    
+    Scientists use the x-rays to study the properties of materials, and to perform experiments in a wide range of fields.\\
+
     The SLS is a third-generation synchrotron light source, which provides high-brilliance photon beams
     with high spectral resolution and tunable energy. It is used for reseach in materials science,
-    biology, chemistry and more. \cite{boge2002first, aboutSLS, PhysRevLett.128.024801}.
+    biology, chemistry and more. \cite{boge2002first, aboutSLS, PhysRevLett.128.024801}.\\
+
+    The SLS is composed of 16 beamlines, each of which is used for a specific type of experiment.
+    A beamline consists of an optical hutch where synchotron light is focused and
+    wavelength selected. Scientists operate the beamline and perform their experiments
+    from the endstation \cite{lightsource}.\\
+
+    In addition, the SLS is undergoing a major upgrade to become a 4-th generation light source.
+    SLS 2.0 will provide a higher brilliance    and coherence of the x-ray beams. It will also
+    increase the data rate by up to four orders of magnitude. This highlights the need for
+    new and improved software to handle the increased data rate and complexity of the experiments.\\
+
+
+
+
+
+
 
     \begin{figure}
         \centering
         \includegraphics[width=\textwidth]{Chapitre1/figures/psi.jpg}
-        \caption{A picture of the Paul Scherrer Institute. The SLS is the large circular building. 
-         PSI has two main parts the East and West separated by the Aare river.}
+        \caption{A picture of the Paul Scherrer Institute. The SLS is the large circular building.
+            PSI has two main parts the East and West separated by the Aare river.}
         \label{fig:sls}
     \end{figure}
 
@@ -60,23 +89,33 @@
     is part of the Center for Photon Science.
 
     % The group is composed of around 28 people, including the group leaders.
-    The group is responsible for the development of new detectors, the maintenance of the existing ones, and the
-    development of software for the data acquisition and analysis. 
+    The group develops custom high performance detectors not available from commercial vendors.
+    The group does everything from chip design in the readout chip to FPGA,
+    mechanics and software
+
+    These Detector's are an integral part of the beamline's setup, and are used to detect the x-ray photons or electrons. Many experiments in different
+    fields can use these detectors such as for studying the properties of
+    materials \cite{butcher2024ptychographic},
+    protein structures \cite{pomeranz2009crystal}, crystall
+    ography \cite{leonarski2023kilohertz}, biology \cite{lemcoff2023brilliant,dullin2024vivo}, and many other fields of research.
+
     The group is also involved in the development of new techniques for the data analysis, such as image processing,
     pattern recognition, and machine learning.
-    These Detector's are an integral part of the beamline's setup, and are used to detect the x-ray photons that are
-    emitted by the synchrotron. Many experiments in different fields can use these detectors such as for studying the properties of materials \cite{butcher2024ptychographic},
-    protein structures \cite{pomeranz2009crystal}, crystallography \cite{leonarski2023kilohertz}, biology \cite{lemcoff2023brilliant,dullin2024vivo}, and many other fields of research.
+
+    These detectors stream data at very high rates. For example the JUNGFRAU 4-megapixel (4M)
+    charge-integrating pixel-array detector, when operated at a full 2 kHz frame rate,
+    streams data at a rate of 17GB/s. MATTERHORN, the newest detector developed by the group,
+    can stream data at a rate of 100GB/s \cite{matterhorn, jungfraujoch}.\\
 
     On the software side, the group is responsible for the development of the software that is used to control the detectors, acquire the data, and analyze it.
-    The software is developed in C++ and is used by scientists to perform their experiments.
+    The software is developed in C++ with python bindings and is used by scientists to perform their experiments.
     The main package maintained by the detector's group is the "SLS Detector Package" available publicly
     on \url{https://github.com/slsdetectorgroup/slsDetectorPackage}. The package provides several binaries such as:
     \begin{itemize}
         \item \textbf{slsReceiver} The receiver server acquires incoming data from detectors using UDP and listens for configurations from host machine using TCP.
-        \item \textbf{slsDetectorGet} Used by the host machine to request the configuration on the Receiver or the Detector.
-        \item \textbf{slsDetectorPut} Used to configure parameters on both the Receiver and Detector.
-        \item \textbf{slsDetectorGui} A graphical user interface (GUI) that receives data from the Receiver and displays it.
+        \item \textbf{sls\_detector\_get} Used by the host machine to request the configuration on the Receiver or the Detector.
+        \item \textbf{sls\_detector\_put} Used to configure parameters on both the Receiver and Detector.
+        \item \textbf{slsDetectorGui} A graphical user interface (GUI) implemented in Qt that receives data from the Receiver and displays it.
     \end{itemize}
     The list of binaries is not exhaustive, and the package contains many other binaries for simulating detectors, analyzing data, and many other utilities.
 
@@ -84,7 +123,8 @@
         \centering
         \includegraphics[scale=0.8]{Chapitre1/figures/slsreceiver.png}
         \caption{slsDetectorPackage setup for two detectors. Configuration uses TCP while
-            data streaming from detector to slsReceiver uses UDP}
+            data streaming from detector to slsReceiver uses UDP. The data transfer from the detector
+            comes over 10GB/s optical fibers.}
         \label{fig:detector}
     \end{figure}
 
@@ -111,15 +151,18 @@
     Second, the code is very rigid and inflexible. The code is designed to work in a specific way, and it is difficult
     to modify it to work in a different way. This means that scientists are limited in what they can do with the code,
     and they are forced to work within the constraints of the existing code. This can be very frustrating for scientists,
-    who may have specific requirements that are not met by the existing code.
+    who may want to experiment with novel approaches and innovate new methods.
     Furthermore, some of the speicific use case implementations are very brittle and can break easily if the code is modified.
-    It lacks proper testing, error handling and logging. This makes it difficult to maintain and extend the code.
+    It lacks proper testing, and logging. This makes it difficult to debug, maintain and extend the code.
 
 
     \subsubsection{Code Duplication}
-    Third, the code is duplicated in many places. Scientist often rely on their own scripts to perform specific tasks.
-    This leads to each scientist having their own version of the code, which is difficult to maintain and update.
-    and also results in the use of sub-optimal code, which is not efficient or reliable.
+    Third, the code is duplicated in many places. Scientist often rely on their own scripts to
+    perform specific tasks.    This leads to each scientist having their own version of the
+    code, which is difficult to maintain and update.    and also results in the use of
+    sub-optimal code, which is not efficient or reliable. This is due in part to the lack of
+    flexibility of the existing code, which forces users to reimplment the same functionalities
+    in their own scripts.
 
 
     \subsubsection{Data Storage Limitations}
@@ -128,6 +171,12 @@
     functionalities for processing data on the fly. This means that scientists need to store the data on disk
     and process it later. This is not ideal and is becoming less practical as the amount of data can be very expensive to
     store and process. The new library should be designed to process around 10GB/s of data in real-time.
+
+    % \subsubsection{Strict Stability Requirements}
+    % The slsDetectorPackage is used publicly by various groups and institutions.
+    % It is tailored for stability and follows a strict release cycle. This means that new features or bug fixes
+    % might take a long time to be implemented. 
+
 
     \section{Project Goals}
     The goal of this project is to develop a new library that will address the limitations of the existing software.
@@ -138,7 +187,7 @@
     read and write raw data files and numpy files, includes commonly used algorithms for data processing and it should
     expose a C++ and a Python API. \\
 
-    In addition, code should be well tested, documented, and should include logging and error handling.
+    In addition, code should be well tested, documented, and should include proper error handling.
     The library should be designed to be extensible, so that new features can be added easily in the future.
     and also flexible so that it accomodates different and upcoming use cases. \\
 
@@ -164,7 +213,7 @@
     \end{itemize}
 
     \subsection{Tools}
-    We used Github Projects to manage the Kanban board. Github Projects is a tool that allows you to create a Kanban board
+    We used Github Projects to manage the Kanban board. Which is a tool that allows you to create a Kanban board
     and manage your tasks. It is integrated with Github, so you can link your tasks to your code, and track your progress
     easily. We also used Github Issues to create tasks, and Github Pull Requests to review and merge the code.
 
@@ -215,15 +264,15 @@
 
     \begin{figure}[h]\centering
         \includegraphics[width=\textwidth]{Chapitre1/figures/gantt.png}
-        \caption{Gantt Diagram of the 6 phases of development. A margin was left at the end of the project to account for 
-        holidays, vacation days and development delays}
+        \caption{Gantt Diagram of the 6 phases of development. A margin was left at the end of the project to account for
+            holidays, vacation days and development delays}
         \label{fig:gantt}
     \end{figure}
 
     \section*{Conclusion}
-    In this chapter we presented the host company and the key difficulties faced 
+    In this chapter we presented the host company and the key difficulties faced
     by its detectors group. Following this we established the goals of the project
-    and the methodology that we will follow to achieve them. 
+    and the methodology that we will follow to achieve them.
 
 
     %==============================================================================

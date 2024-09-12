@@ -255,6 +255,45 @@
       \field{pages}{1338846}
       \range{pages}{1}
     \endentry
+    \entry{matterhorn}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9de913c0e8f810151e27a1140c583ce8}{%
+           family={Fröjdh},
+           familyi={F\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=883b58bf102a5f823ad31636a04f6dc9}{%
+           family={Bergamaschi},
+           familyi={B\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d39790590ed5c7fbd37d006e9160e7b}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{5c63f1722b618cbfed323aa0dc0db2f4}
+      \strng{fullhash}{5c63f1722b618cbfed323aa0dc0db2f4}
+      \strng{bibnamehash}{5c63f1722b618cbfed323aa0dc0db2f4}
+      \strng{authorbibnamehash}{5c63f1722b618cbfed323aa0dc0db2f4}
+      \strng{authornamehash}{5c63f1722b618cbfed323aa0dc0db2f4}
+      \strng{authorfullhash}{5c63f1722b618cbfed323aa0dc0db2f4}
+      \field{labelalpha}{FBS24}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Physics}
+      \field{title}{Single-photon counting detectors for diffraction-limited light sources}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{1304896}
+      \range{pages}{1}
+    \endentry
     \entry{bufferprotocol}{misc}{}
       \name{author}{1}{}{%
         {{hash=9688a568902e4b07b60557b566bdd820}{%
@@ -1033,6 +1072,34 @@
       \field{pages}{475\bibrangedash 480}
       \range{pages}{6}
     \endentry
+    \entry{lightsource}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=50f6d64afa7f8a4624d4387e2cb2a525}{%
+           family={Source},
+           familyi={S\bibinitperiod},
+           given={Canadian\bibnamedelima Light},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{50f6d64afa7f8a4624d4387e2cb2a525}
+      \strng{fullhash}{50f6d64afa7f8a4624d4387e2cb2a525}
+      \strng{bibnamehash}{50f6d64afa7f8a4624d4387e2cb2a525}
+      \strng{authorbibnamehash}{50f6d64afa7f8a4624d4387e2cb2a525}
+      \strng{authornamehash}{50f6d64afa7f8a4624d4387e2cb2a525}
+      \strng{authorfullhash}{50f6d64afa7f8a4624d4387e2cb2a525}
+      \field{labelalpha}{Sou24}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a synchrotron?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.lightsource.ca/public/what-is-a-synchrotron.php
+      \endverb
+      \verb{url}
+      \verb https://www.lightsource.ca/public/what-is-a-synchrotron.php
+      \endverb
+    \endentry
     \entry{aboutSLS}{online}{}
       \name{author}{1}{}{%
         {{hash=2af0d52176dad70979954a7c6f0e6ccc}{%
@@ -1047,6 +1114,7 @@
       \strng{authorbibnamehash}{2af0d52176dad70979954a7c6f0e6ccc}
       \strng{authornamehash}{2af0d52176dad70979954a7c6f0e6ccc}
       \strng{authorfullhash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \field{extraname}{1}
       \field{labelalpha}{Web}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
@@ -1061,7 +1129,37 @@
       \endverb
       \keyw{SLS,PSI}
     \endentry
+    \entry{whySwissFEL}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2af0d52176dad70979954a7c6f0e6ccc}{%
+           family={Website},
+           familyi={W\bibinitperiod},
+           given={PSI},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{fullhash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{bibnamehash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{authorbibnamehash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{authornamehash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \strng{authorfullhash}{2af0d52176dad70979954a7c6f0e6ccc}
+      \field{extraname}{2}
+      \field{labelalpha}{Web24}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why SwissFEL?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.psi.ch/en/swissfel/why-swissfel
+      \endverb
+      \verb{url}
+      \verb https://www.psi.ch/en/swissfel/why-swissfel
+      \endverb
+    \endentry
   \enddatalist
+  \missing{jungfraujoch}
 \endrefsection
 \endinput
 

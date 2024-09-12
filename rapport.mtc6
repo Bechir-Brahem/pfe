@@ -1,33 +1,33 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Requirement Specification}{\reset@font\mtcSfont 14}{section.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1}Actors Identification}{\reset@font\mtcSSfont 14}{subsection.2.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2}Functional Specification}{\reset@font\mtcSSfont 14}{subsection.2.1.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.1}File Input/Output}{\reset@font\mtcSSSfont 14}{subsubsection.2.1.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.2}Network Input/Output}{\reset@font\mtcSSSfont 15}{subsubsection.2.1.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.3}Data Processing}{\reset@font\mtcSSSfont 15}{subsubsection.2.1.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.4}Python Interface}{\reset@font\mtcSSSfont 15}{subsubsection.2.1.2.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3}Non-Functional Specification}{\reset@font\mtcSSfont 15}{subsection.2.1.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.1}Performance}{\reset@font\mtcSSSfont 15}{subsubsection.2.1.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.2}Reliability}{\reset@font\mtcSSSfont 16}{subsubsection.2.1.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.3}Portability}{\reset@font\mtcSSSfont 16}{subsubsection.2.1.3.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.4}Extensibility}{\reset@font\mtcSSSfont 16}{subsubsection.2.1.3.4}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.5}Maintainability}{\reset@font\mtcSSSfont 16}{subsubsection.2.1.3.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4}Requirements Specification Analysis}{\reset@font\mtcSSfont 16}{subsection.2.1.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Overall Architecture and Guidelines}{\reset@font\mtcSfont 17}{section.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Clean Architecture}{\reset@font\mtcSSfont 18}{subsection.2.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2}SOLID Principles}{\reset@font\mtcSSfont 20}{subsection.2.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1}Single Responsibility Principle (SRP)}{\reset@font\mtcSSSfont 20}{subsubsection.2.2.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2}Open/Closed Principle (OCP)}{\reset@font\mtcSSSfont 20}{subsubsection.2.2.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.3}Liskov Substitution Principle (LSP)}{\reset@font\mtcSSSfont 20}{subsubsection.2.2.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.4}Interface Segregation Principle (ISP)}{\reset@font\mtcSSSfont 21}{subsubsection.2.2.2.4}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.5}Dependency Inversion Principle (DIP)}{\reset@font\mtcSSSfont 21}{subsubsection.2.2.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1}Requirement Specification}{\reset@font\mtcSfont 15}{section.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1}Actors Identification}{\reset@font\mtcSSfont 15}{subsection.2.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2}Functional Specification}{\reset@font\mtcSSfont 15}{subsection.2.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.1}File Input/Output}{\reset@font\mtcSSSfont 15}{subsubsection.2.1.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.2}Network Input/Output}{\reset@font\mtcSSSfont 16}{subsubsection.2.1.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.3}Data Processing}{\reset@font\mtcSSSfont 16}{subsubsection.2.1.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.4}Python Interface}{\reset@font\mtcSSSfont 16}{subsubsection.2.1.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3}Non-Functional Specification}{\reset@font\mtcSSfont 16}{subsection.2.1.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.1}Performance}{\reset@font\mtcSSSfont 16}{subsubsection.2.1.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.2}Reliability}{\reset@font\mtcSSSfont 17}{subsubsection.2.1.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.3}Portability}{\reset@font\mtcSSSfont 17}{subsubsection.2.1.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.4}Extensibility}{\reset@font\mtcSSSfont 17}{subsubsection.2.1.3.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.5}Maintainability}{\reset@font\mtcSSSfont 17}{subsubsection.2.1.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4}Requirements Specification Analysis}{\reset@font\mtcSSfont 17}{subsection.2.1.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2}Overall Architecture and Guidelines}{\reset@font\mtcSfont 18}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1}Clean Architecture}{\reset@font\mtcSSfont 19}{subsection.2.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2}SOLID Principles}{\reset@font\mtcSSfont 21}{subsection.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1}Single Responsibility Principle (SRP)}{\reset@font\mtcSSSfont 21}{subsubsection.2.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.2}Open/Closed Principle (OCP)}{\reset@font\mtcSSSfont 21}{subsubsection.2.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.3}Liskov Substitution Principle (LSP)}{\reset@font\mtcSSSfont 21}{subsubsection.2.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.4}Interface Segregation Principle (ISP)}{\reset@font\mtcSSSfont 22}{subsubsection.2.2.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.5}Dependency Inversion Principle (DIP)}{\reset@font\mtcSSSfont 22}{subsubsection.2.2.2.5}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3}C++ Specific Design}{\reset@font\mtcSSfont 22}{subsection.2.2.3}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.1}Templates Metaprogramming}{\reset@font\mtcSSSfont 22}{subsubsection.2.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.2}C++ Idioms}{\reset@font\mtcSSSfont 23}{subsubsection.2.2.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4}Project Architectural Design}{\reset@font\mtcSSfont 25}{subsection.2.2.4}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.1}Project Modules}{\reset@font\mtcSSSfont 25}{subsubsection.2.2.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.2}Project Architecture}{\reset@font\mtcSSSfont 26}{subsubsection.2.2.4.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.3.2}C++ Idioms}{\reset@font\mtcSSSfont 24}{subsubsection.2.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4}Project Architectural Design}{\reset@font\mtcSSfont 26}{subsection.2.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.1}Project Modules}{\reset@font\mtcSSSfont 26}{subsubsection.2.2.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.4.2}Project Architecture}{\reset@font\mtcSSSfont 28}{subsubsection.2.2.4.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3}Project Setup}{\reset@font\mtcSfont 28}{section.2.3}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1}Project Structure}{\reset@font\mtcSSfont 28}{subsection.2.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2}Build System}{\reset@font\mtcSSfont 28}{subsection.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.2}Build System}{\reset@font\mtcSSfont 29}{subsection.2.3.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3}Version Control}{\reset@font\mtcSSfont 29}{subsection.2.3.3}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4}Testing and Continuous Integration}{\reset@font\mtcSSfont 29}{subsection.2.3.4}}

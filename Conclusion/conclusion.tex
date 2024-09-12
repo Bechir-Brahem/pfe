@@ -11,6 +11,95 @@
 
 \begin{spacing}{1.2}
 %==============================================================================
+\section*{Conclusion}
+In this thesis, we have presented the requirements, design, implementation and evaluation 
+of a flexible data analysis library for pixel detectors. Managing the performance, 
+flexibility, extensibility and usability of the library was the main goal of this work.
+Several design choices were made to balance the trade-offs between these requirements.\\
+
+In result of this work, a modular design was conceived and implemented. The library 
+provides a set of tools for data analysis, file manipulation, network communication,
+and parallelization that scientist can use. In summary the library can:
+
+\begin{itemize}
+    \item Read and write data in built-in or custom user-defined formats. 
+    \item Process incoming data in real-time or offline.
+    \item Communicate over the network with other devices or software.
+    \item Distribute the data processing over multiple cores or nodes.
+    \item Expose a Python API with C++ like performance.
+    \item Be extended with new modules or algorithms.
+\end{itemize}
+
+In conclusion, aare provides a rich set of tools for scientists to analyze data from
+hybrid pixel detectors. It offers abstractions from the underlying infrastructure, 
+allowing the scientists to focus on science rather than the technical details.\\
+
+
+\section*{Lessons Learned}
+The development of aare was a challenging task that required a lot of effort and time.
+I can confidently say that I have learned a lot during this project. From the architectural 
+design, C++ programming, Python bindings, to the communication skills this project has
+broadened my vision and knowledge.\\
+
+Several lessons can be presented here but the most important ones are:
+
+\textbf{Over Engineering.} "Any problem in computer science can be solved with another
+level of indirection, except for too many levels of indirection." This quote is a good
+reminder that over-engineering can be a problem. The first design of the file\_io 
+included a lot design patterns and abstractions that were not necessary. This impacted 
+the development time and increased the complexity of the code.
+
+A better approach would have been to start with a simple design and then refactor the
+code as needed. Projects evolve and requirements change, making prototypes, iterating 
+over them and discussing with the users is a better approach.\\
+
+\textbf{C++ bindings: Python on steroids.} The Python bindings were a challenge to implement. But, 
+the performance of the Python API was a pleasant surprise. CPython is interoperable with C++
+and moving data between the two languages is efficient. Using features such as the buffer
+protocol, NumPy arrays or other objects can be shared between C++ and Python without 
+copying the data. 
+
+Slow Python code can be rewritten in C++ and exposed to Python with a simple interface.
+This simple trick allows aare to achieve its goals of flexibility, performance and usability.
+Furthermore, the controversial GIL limitation can be worked around even with multiples threads.
+This permits object sharing between threads and parallelization\\
+
+\textbf{Architecture and Design.} The architecture of aare was a key factor in the success of the project.
+The modular design allowed the library to be extended with new modules and manage 
+the dependencies between them more easily. Dependencies are a risk in software development
+and it can slow down development and increase the complexity of the code. 
+
+Spending time on the design and architecture of the library was a good investment. It should be 
+noted that the design only specified the high-level components and their interactions. 
+
+\textbf{Tests.} Writing tests was a good practice that helped to catch bugs early in the
+development process. Aare was developed a component by component, starting with the core components
+and then adding new features. Code evolves and changes will be made. After coming 
+back to the codebase after a few weeks, having reliable tests was a good way to ensure that
+the changes did not break the existing code.
+
+On the other hand, aare was an early stage, fast changing project. Writing tests very strict 
+tests and covering every edge case can negatively impact the development time. While the 
+library was in beta stage, it was helpful to leave some parts of the code loosely tested.\\
+
+\section*{Perspectives}
+The development of aare is not finished. There are several features that could be added
+to the library to make it more useful for scientists. One main area to explore is GPU 
+acceleration. The library could be extended to support CUDA or OpenCL to take advantage
+of the parallelism of the GPU. This can help for processing data faster and in real-time.\\
+
+Another important point it the need for more users and feedback. The library was developed
+with the help of a few users and their feedback was very valuable. More users can help to
+identify the missing features, bugs, or improvements that can be made. Tutorials, examples 
+and documentation can help to attract more users.\\
+
+
+
+
+
+
+
+
 
 
 %==============================================================================

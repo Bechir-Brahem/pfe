@@ -63,7 +63,7 @@
 
     \subsubsection{Data Processing}
     Although the task of data processing is very specific to the scientist, the library should provide a set of
-    basic data processing algorithms that can be used as building blocks for more complex algorithms.
+    basic building blocks that can be used for more complex algorithms.
     In addition implementing these basic algorithms will help the scientist to understand the library and how to use it.
     Therefore helps in acclerating the adoption of the library.
 
@@ -79,6 +79,7 @@
 
     Therefore the library should provide a Python interface that can be used to access its functionalities.
     The Python interface should be easy to use, similar to other Python libraries like Numpy and Pandas.
+
 
 
     \subsection{Non-Functional Specification}
@@ -187,7 +188,7 @@
 
 
     \subsection{Clean Architecture}
-    The clean architecture was first introduced by Robert C. Martin (also known as Uncle Bob)
+    The clean architecture was first introduced by Robert C. Martin 
     in his blog post \cite{cleanBlog} and later in his book "Clean Architecture: A Craftsman's Guide to Software Structure and
     Design" \cite{clean}. Like other architectural patterns, the clean architecture promotes
     separation of concerns, testability, and independence from frameworks, databases, and UIs.
@@ -538,8 +539,8 @@ std::vector<Shape> shapes;
 
 
     \subsection{Build System}
-    The project uses CMake as the build system. CMake is a cross-platform build system that
-    generates native build files for the platform of your choice. It is a powerful tool that
+    The project uses CMake as the build system generator. CMake is a cross-platform build system tool that
+    generates native build files for the platform of choice. It is a powerful tool that
     can be used to build, test and package software. The CMakeLists.txt file in the root directory
     of the project is used to configure the project. Each module also has its own CMakeLists.txt
     file which is used to configure the module and build the sources files and tests. CMake will compile

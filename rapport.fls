@@ -898,6 +898,7 @@ INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./Chapitre1/figures/psi.jpg
 INPUT ./Chapitre1/figures/psi.jpg
 INPUT ./Chapitre1/figures/psi.jpg
@@ -908,7 +909,6 @@ INPUT /usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT /usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT /usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
-INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./Chapitre1/figures/slsreceiver.png
 INPUT ./Chapitre1/figures/slsreceiver.png
 INPUT ./Chapitre1/figures/slsreceiver.png
