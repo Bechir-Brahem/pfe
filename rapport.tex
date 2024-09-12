@@ -49,7 +49,7 @@
 
 
 %%% Listings
-
+\usepackage{pdfpages}
 \usepackage{listings}
 \lstloadlanguages{xml, java}
 	
@@ -85,47 +85,50 @@
 \DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43, 0.35, 0.35,0.01}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
 \captionsetup[lstlisting]{format=listing,labelfont=black,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
 
-
+\AtEndDocument{ \includepdf{PageGardeVerso.pdf}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 \setlength{\parindent}{0pt}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand\figurename{\small\textbf{Figure}} 
 
-\addtocounter{page}{-1}%pour revenir à 0
+\includepdf[pages=-]{PageDeGarde.pdf}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \renewcommand\figurename{\small\textbf{Figure}} 
 
-% Pour remplir la page de garde
+% \addtocounter{page}{-1}%pour revenir à 0
 
-\TitreProjet{Aare: a flexible data analysis library for hybrid pixel detectors}
+% % Pour remplir la page de garde
 
-\AuteurA{Bechir} {Braham} 
-%\AuteurB{Flen2} {FOULENI}
-%\AuteurC{Flen3} {FOULENI} 
-%\AuteurD{Flen4} {FOULENI}
+% \TitreProjet{Aare: a flexible data analysis library for hybrid pixel detectors}
 
-\Encadrant{Dr.}{Ghada}{Guesmi}
-\EncadrantS{Dr.} {Erik} {Fröjd}
+% \AuteurA{Bechir} {Braham} 
+% %\AuteurB{Flen2} {FOULENI}
+% %\AuteurC{Flen3} {FOULENI} 
+% %\AuteurD{Flen4} {FOULENI}
 
-\Filiere{Software Engineering}
-\datesout{??/??/2024}
+% \Encadrant{Dr.}{Ghada}{Guesmi}
+% \EncadrantS{Dr.} {Erik} {Fröjd}
 
-
-\President{M. President} {FLEN}     %% Président du Jury
-\RapporteurA{Ms. Reviewer} {FLENA} %%Rapporteur
+% \Filiere{Software Engineering}
+% \datesout{??/??/2024}
 
 
+% \President{M. President} {FLEN}     %% Président du Jury
+% \RapporteurA{Ms. Reviewer} {FLENA} %%Rapporteur
 
-\AnneeUniv{2023/2024}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\makethese %% crée la couverture.
 
-\onehalfspacing
+% \AnneeUniv{2023/2024}
 
-% une page blanche (deuxième de couverture)
-\newpage\thispagestyle{empty}\addtocounter{page}{-3}
-\null\newpage\thispagestyle{empty}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \makethese %% crée la couverture.
+
+% \onehalfspacing
+
+% % une page blanche (deuxième de couverture)
+% \newpage\thispagestyle{empty}\addtocounter{page}{-3}
+% \null\newpage\thispagestyle{empty}
+
 
 
 \frontmatter %numérotation en iii
@@ -198,7 +201,7 @@
 
 % \include{Resumes/resumeF}
 
-\include{Resumes/resumeA}
+% \include{Resumes/resumeA}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -242,6 +245,8 @@
 
 % \appendix
 % \include{Annexe1/annexe1}
+
+
 
 
 \end{document}

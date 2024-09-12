@@ -638,6 +638,85 @@
       \field{pages}{485\bibrangedash 493}
       \range{pages}{9}
     \endentry
+    \entry{Jungfraujoch}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=76b39a8126486c5b090188ff8eed3525}{%
+           family={Leonarski},
+           familyi={L\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4f2278d205507d217db80f282bdfb32b}{%
+           family={Brückner},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86a42076705063ff0d49148d4ca2b5ca}{%
+           family={Lopez-Cuenca},
+           familyi={L\bibinithyphendelim C\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d75bd353e1922dbf295d94338d42c952}{%
+           family={Mozzanica},
+           familyi={M\bibinitperiod},
+           given={Aldo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=91c421e4b155965a3a7e838db09d606b}{%
+           family={Stadler},
+           familyi={S\bibinitperiod},
+           given={H-C},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=cbba4b73d0d1c89d8bcf767d3f7ea50c}{%
+           family={Matěj},
+           familyi={M\bibinitperiod},
+           given={Zdeněk},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=fe37978839b465875e70b45947ad3713}{%
+           family={Castellane},
+           familyi={C\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9da5304ee1e158a3f03967154149e62f}{%
+           family={Mesnet},
+           familyi={M\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6f7a6ff33bc9b4f81ba58ab38a91e09f}{%
+           family={Wojdyla},
+           familyi={W\bibinitperiod},
+           given={Justyna\bibnamedelima Aleksandra},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5d39790590ed5c7fbd37d006e9160e7b}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{1847c98ed3c9ba2ec9fbf69754e77452}
+      \strng{fullhash}{44587c6ff10cbb56645881db032e8a96}
+      \strng{bibnamehash}{1847c98ed3c9ba2ec9fbf69754e77452}
+      \strng{authorbibnamehash}{1847c98ed3c9ba2ec9fbf69754e77452}
+      \strng{authornamehash}{1847c98ed3c9ba2ec9fbf69754e77452}
+      \strng{authorfullhash}{44587c6ff10cbb56645881db032e8a96}
+      \field{extraname}{1}
+      \field{labelalpha}{Leo+23}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{number}{1}
+      \field{title}{Jungfraujoch: hardware-accelerated data-acquisition system for kilohertz pixel-array X-ray detectors}
+      \field{volume}{30}
+      \field{year}{2023}
+      \field{pages}{227\bibrangedash 234}
+      \range{pages}{8}
+    \endentry
     \entry{leonarski2023kilohertz}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -702,9 +781,11 @@
       \strng{authorbibnamehash}{1847c98ed3c9ba2ec9fbf69754e77452}
       \strng{authornamehash}{1847c98ed3c9ba2ec9fbf69754e77452}
       \strng{authorfullhash}{52219c34d55dc1308dc980cdc8ea7b7c}
+      \field{extraname}{2}
       \field{labelalpha}{Leo+23}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IUCrJ}
@@ -1159,7 +1240,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{jungfraujoch}
 \endrefsection
 \endinput
 

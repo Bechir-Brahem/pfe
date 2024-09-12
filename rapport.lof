@@ -18,17 +18,17 @@
 \contentsline {figure}{\numberline {III.1}{\ignorespaces Core module simplified class diagram}}{34}{figure.caption.12}%
 \contentsline {figure}{\numberline {III.2}{\ignorespaces File IO module class diagram}}{39}{figure.caption.13}%
 \contentsline {figure}{\numberline {III.3}{\ignorespaces Network IO module class diagram}}{43}{figure.caption.14}%
-\contentsline {figure}{\numberline {III.4}{\ignorespaces Illustration of the ZmqMultiReceiver class: multiple detectors send frames to the ZmqMultiReceiver which combines them into a single Frame. The ZmqMultiReceiver also manages the synchronization between streams.}}{46}{figure.caption.15}%
+\contentsline {figure}{\numberline {III.4}{\ignorespaces Illustration of the ZmqMultiReceiver class: multiple detectors send frames to the ZmqMultiReceiver which combines them into a single Frame. The ZmqMultiReceiver also manages the synchronization between streams.}}{45}{figure.caption.15}%
 \contentsline {figure}{\numberline {III.5}{\ignorespaces Illustration of the task distribution system. The task ventilator class distributes tasks to multiple workers. The workers process the tasks and send the results back to the sink.}}{47}{figure.caption.16}%
 \contentsline {figure}{\numberline {III.6}{\ignorespaces Processing module class diagram}}{50}{figure.caption.17}%
 \contentsline {xpart}{Chapter 4}{54}{part.4}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Library Applications and Evaluation}{55}{chapter.4}%
 \contentsline {figure}{\numberline {IV.1}{\ignorespaces Illustration of thread concurency in Python. The GIL prevents multiple threads from executing Python bytecodes in parallel.}}{60}{figure.caption.20}%
-\contentsline {figure}{\numberline {IV.2}{\ignorespaces Illustration of running multithreaded Python code with C++ bindings. Red arrows represent Python code, blue arrows represent C++ code. letter R represents releasing the GIL, letter A represents acquiring the GIL.}}{62}{figure.caption.21}%
-\contentsline {figure}{\numberline {IV.3}{\ignorespaces Plot showing the impact of releasing the GIL in the python bindings}}{64}{figure.caption.23}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Run Time}}}{64}{subfigure.3.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering CPU Usage}}}{64}{subfigure.3.2}%
-\contentsline {figure}{\numberline {IV.4}{\ignorespaces Comparison of different parallelization techniques. Time taken to run the benchmark in seconds.}}{67}{figure.caption.25}%
+\contentsline {figure}{\numberline {IV.2}{\ignorespaces Illustration of running multithreaded Python code with C++ bindings. Red arrows represent Python code, blue arrows represent C++ code. letter R represents releasing the GIL, letter A represents acquiring the GIL.}}{61}{figure.caption.21}%
+\contentsline {figure}{\numberline {IV.3}{\ignorespaces Plot showing the impact of releasing the GIL in the python bindings}}{63}{figure.caption.23}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\centering Run Time}}}{63}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\centering CPU Usage}}}{63}{subfigure.3.2}%
+\contentsline {figure}{\numberline {IV.4}{\ignorespaces Comparison of different parallelization techniques. Time taken to run the benchmark in seconds.}}{66}{figure.caption.25}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion and Perspectives}{69}{chapter*.27}%
+\contentsline {xchapter}{Conclusion and Future Work}{68}{chapter*.27}%

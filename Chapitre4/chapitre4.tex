@@ -256,14 +256,14 @@ for(int i=0; i<file.total_frames(); i++){
     Effectively, we have bypassed the GIL limitations and achieved parallelization in multithreaded Python.
 
     \subsection{Performance Evaluation}
-    In this sub section we will evaluate the different parallelization techniques and compare their performance.
-    As a benchmark, we will consider the common task of reading frames from a file, applying pedestal
-    subtraction and finding clusters. This task contains I/O operations for reading frames from a file,
+    In this subsection, the performance of different parallelization techniques will evaluated.
+    As a benchmark, the common task of reading frames from a file, applying pedestal
+    subtraction and finding clusters is used. This task contains I/O operations for reading frames from a file,
     and CPU bound operations for pedestal subtraction and cluster finding. We will evaluate the performance
     of the task using single threaded, multi-threaded and multi-process implementations.\\
 
     \subsubsection{Impact of the GIL}
-    The python interface of the library uses C++ bindings to call the internal C++ code. As discussed in the previous chapter,
+    The python interface of the library uses C++ bindings to call the internal C++ code. As discussed in the previous section,
     the GIL prevents the parallelization of Python threads. Python threads run concurrently for IO bound tasks. However,
     for CPU bound tasks, the GIL prohibits the parallel execution of Python bytecodes.\\
 
@@ -280,7 +280,7 @@ for(int i=0; i<file.total_frames(); i++){
         \centering
         \begin{tabular}{|c|c|c|c|c|}
             \hline
-            \multirow{2}{*}{\textbf{Thread Count}} & \multicolumn{2}{c|}{\textbf{With GIL}} & \multicolumn{2}{c|}{\textbf{Without GIL}}                                          \\
+            \multirow{2}{*}{\textbf{Thread Count}} & \multicolumn{2}{c|}{\textbf{GIL Acquired}} & \multicolumn{2}{c|}{\textbf{GIL Released}}                                          \\
                                                    & \textbf{Time (s)}                      & \textbf{CPU Usage}                        & \textbf{Time (s)} & \textbf{CPU Usage} \\
             \hline
             1                                      & 107                                    & 97\%                                      & 105               & 96\%               \\
@@ -299,8 +299,8 @@ for(int i=0; i<file.total_frames(); i++){
     Table \ref{tab:gil_impact} shows the impact of the GIL on the performance of the library. The table compares the time
     taken to run a task and the CPU usage for different thread counts. The task was run on a 4-core machine. CPU usage is
     calculated as the sum of the CPU usage of all cores. As we can see from the table, the time taken to run the task is
-    significantly higher when the GIL is present. The CPU usage is also lower when the GIL is present. This is because
-    the GIL prevents the parallel execution of C++ code. The as we use multiple threads we can see that the performance degrades
+    significantly higher when the GIL is present. The CPU usage is also lower with the GIL. This is because
+    the GIL prevents the parallel execution of C++ code. As we use multiple threads we can see that the performance degrades
     as the number of threads increases. This is due to the cost of context switching between threads.\\
 
     In comparison when the GIL is not present, the time taken to run the task is significantly lower. CPU Usage quadrupled
@@ -311,7 +311,7 @@ for(int i=0; i<file.total_frames(); i++){
         \centering
         \subfloat[\centering Run Time]{{\includegraphics[width=0.8\textwidth]{Chapitre4/figures/gil1.png } }}%
         \qquad
-        \subfloat[\centering CPU Usage]{{\includegraphics[width=0.8\textwidth]{Chapitre4/figures/gil1.png} }}%
+        \subfloat[\centering CPU Usage]{{\includegraphics[width=0.8\textwidth]{Chapitre4/figures/gil2.png} }}%
         \caption{Plot showing the impact of releasing the GIL in the python bindings}%
         \label{fig:gil_impact}%
 
@@ -325,7 +325,7 @@ for(int i=0; i<file.total_frames(); i++){
     implemented: multi-threaded Python, multi-threaded C++, multi-process C++ with ZeroMQ, multi-threaded C++ with
     Producer and Consumer Queues.\\
 
-    The experiments were done on a cloud virtual machine deployed on Azure Cloud. The machine used has a 4-core CPU and 16
+    The experiments were done on a cloud virtual machine deployed on Azure Cloud. The machine used has  4 vCPUs and 16
     GB of RAM (D4s\_v3). The benchmark as previously defined is to read 8000 frames from a file, apply pedestal subtraction and
     find clusters.    \\
 

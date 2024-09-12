@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'PageGardeVerso.blg'
+[101] biber:340> INFO - === Thu Sep 12, 2024, 10:50:02
+[118] Biber.pm:419> INFO - Reading 'PageGardeVerso.bcf'
+[200] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[222] bbl.pm:660> INFO - Writing 'PageGardeVerso.bbl' with encoding 'UTF-8'
+[222] bbl.pm:763> INFO - Output to PageGardeVerso.bbl
+[223] Biber.pm:131> WARN - The file 'PageGardeVerso.bcf' does not contain any citations!
+[223] Biber.pm:133> INFO - WARNINGS: 1
