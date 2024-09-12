@@ -7,19 +7,19 @@
 \contentsline {chapter}{\numberline {I}Project Context and Scope}{3}{chapter.1}%
 \contentsline {section}{\numberline {1}Presentation of The Host Company}{3}{section.1.1}%
 \contentsline {section}{\numberline {2}Detector's Group Presentation and Work}{5}{section.1.2}%
-\contentsline {section}{\numberline {3}Problem Statement}{7}{section.1.3}%
-\contentsline {subsection}{\numberline {3.1}Existing Solution}{7}{subsection.1.3.1}%
+\contentsline {section}{\numberline {3}Problem Statement}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {3.1}Existing Solution}{6}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {3.2}Limits of The Existing Solution}{7}{subsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Code Complexity}{8}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1}Code Complexity}{7}{subsubsection.1.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Code Rigidity}{8}{subsubsection.1.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Code Duplication}{8}{subsubsection.1.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.4}Data Storage Limitations}{8}{subsubsection.1.3.2.4}%
-\contentsline {section}{\numberline {4}Project Goals}{9}{section.1.4}%
+\contentsline {section}{\numberline {4}Project Goals}{8}{section.1.4}%
 \contentsline {section}{\numberline {5}Work Methodology}{9}{section.1.5}%
 \contentsline {subsection}{\numberline {5.1}Tools}{9}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {5.2}Benefits of Kanban}{10}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {5.3}Meetings}{10}{subsection.1.5.3}%
-\contentsline {section}{\numberline {6}High Level Planning}{11}{section.1.6}%
+\contentsline {section}{\numberline {6}High Level Planning}{10}{section.1.6}%
 \contentsline {xpart}{Chapter 2}{13}{part.2}%
 \contentsline {chapter}{\numberline {II}Requirement Specification and Overall Architecture}{14}{chapter.2}%
 \contentsline {section}{\numberline {1}Requirement Specification}{15}{section.2.1}%
